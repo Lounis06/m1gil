@@ -1,0 +1,23 @@
+body {
+	background-color: lightgrey;
+	margin: auto;
+	margin-top: 0;
+	width: 80%;
+}
+
+.title_div {
+	background-color: grey;
+	padding: 5px;
+}
+
+.title_div * {
+	display: inline;
+}
+
+.title_div form {
+	float: right;
+}
+
+.title_div input {
+	width: 20%;
+}

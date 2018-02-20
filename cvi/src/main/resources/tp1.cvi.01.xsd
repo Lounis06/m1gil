@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://univ.fr/cvi" xmlns="http://univ.fr/cvi">
+	<!-- Description des éléments -->
+	<!-- Element racine -->
+	<xs:element name="cvi" type="cviType"></xs:element>
+	<!-- Niveau 1 - identite -->
+	<xs:element name="identite" type="identiteType"></xs:element>
+	<!-- Niveau 2 - objectif -->
+	<xs:element name="objectif" type="objectifType"></xs:element>
+	<!-- Niveau 3 - prof -->
+	<xs:element name="prof" type="profType"></xs:element>
+		<!-- Niveau 3.1 - expe -->
+		<xs:element name="expe" type="expeType"></xs:element>
+	<!-- Niveau 4 - competences -->
+	<xs:element name="competences" type="competencesType"></xs:element>
+		<!-- Niveau 4.1 - diplomes -->
+		<xs:element name="diplome" type="diplomeType"></xs:element>
+		<!-- Niveau 4.2 - certif -->
+		<xs:element name="certif" type="certifType"></xs:element>
+		<!-- Niveau 4.3 - lv -->
+		<xs:element name="lv" type="lvType"></xs:element>
+		<!-- Niveau 4.4 - info -->
+		<xs:element name="info" type="infoType"></xs:element>
+			<!-- Niveau 4.4.1 -->
+			<xs:element name="langage" type="langageType"></xs:element>
+	<!-- Niveau 5 - divers -->
+	<xs:element name="divers" type="xs:string"></xs:element>
+	
+	<!-- Description des types -->
+	<!-- Types simples -->
+	<!-- nomType -->
+	<xs:simpleType name="nomType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z'\-\s]*"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- prenomType -->
+	<xs:simpleType name="prenomType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Za-z'\-\s]*"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- max20text -->
+	<xs:simpleType name="max20text">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="0"></xs:minLength>
+			<xs:maxLength value="20"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- dateType -->
+	<xs:simpleType name="dateType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(0?[1-9]|[12]?[0-9]|3?[012])[\-](0?[1-9]|1[012])[\-]([0-9]{2}|[0-9]{4})"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- niveauType -->
+	<xs:simpleType name="niveauType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="I|II|III|IV|V"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- isoType -->
+	<xs:simpleType name="isoType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z]{2}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- certType -->
+	<xs:simpleType name="certType">
+		<xs:restriction base="xs:string">
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- nivsType -->
+	<xs:simpleType name="nivsType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[ABC][12]"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- niviType -->
+	<xs:simpleType name="niviType">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="10"></xs:minInclusive>
+			<xs:maxInclusive value="990"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- niveauLangageType -->
+	<xs:simpleType name="niveauLangageType">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0"></xs:minInclusive>
+			<xs:maxInclusive value="10"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Types complexes -->
+	<!-- rootType -->
+	<xs:complexType name="cviType">
+		<xs:sequence>
+			<xs:element ref="identite" minOccurs="1" maxOccurs="1"></xs:element>
+			<xs:element ref="objectif" minOccurs="1" maxOccurs="1"></xs:element>
+			<xs:element ref="prof" minOccurs="1" maxOccurs="1"></xs:element>
+			<xs:element ref="competences" minOccurs="1" maxOccurs="1"></xs:element>
+			<xs:element ref="divers" minOccurs="1" maxOccurs="1"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- identiteType -->
+	<xs:complexType name="identiteType">
+		<xs:sequence>
+			<xs:element name="nom" type="nomType"></xs:element>
+			<xs:element name="prenom" type="prenomType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- objectifType -->
+	<xs:complexType name="objectifType">
+		<xs:choice>
+			<xs:element name="stage" type="max20text"></xs:element>
+			<xs:element name="emploi" type="max20text"></xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<!-- profType -->
+	<xs:complexType name="profType">
+		<xs:sequence>
+			<xs:element ref="expe" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- expeType -->
+	<xs:complexType name="expeType">
+		<xs:sequence>
+			<xs:element name="datedeb" type="dateType"></xs:element>
+			<xs:element name="datefin" type="dateType"></xs:element>
+			<xs:element name="descript" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- competencesType -->
+	<xs:complexType name="competencesType">
+		<xs:sequence>
+			<xs:element ref="diplome" minOccurs="0" maxOccurs="unbounded"></xs:element>
+			<xs:element ref="certif" minOccurs="0" maxOccurs="unbounded"></xs:element>
+			<xs:element ref="lv" minOccurs="1" maxOccurs="5"></xs:element>
+			<xs:element ref="info" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- diplomeType -->
+	<xs:complexType name="diplomeType">
+		<xs:sequence>
+			<xs:element name="date" type="dateType"></xs:element>
+			<xs:element name="descript" type="max20text"></xs:element>
+			<xs:element name="institut" type="max20text"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="niveau" type="niveauType"></xs:attribute>
+	</xs:complexType>
+	<!-- certifType -->
+	<xs:complexType name="certifType">
+		<xs:sequence>
+			<xs:element name="datedeb" type="dateType"></xs:element>
+			<xs:element name="datefin" type="dateType"></xs:element>
+			<xs:element name="descript" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- lvType -->
+	<!-- 
+		A MODIFIER POUR LE CHOIX DE L'ATTRIBUT
+	 -->
+	<xs:complexType name="lvType">
+		<xs:attribute name="iso" type="isoType"></xs:attribute>
+		<xs:attribute name="cert" type="certType"></xs:attribute>
+		<xs:attribute name="nivs" type="nivsType"></xs:attribute>
+		<xs:attribute name="nivi" type="niviType"></xs:attribute>
+	</xs:complexType>
+	<!-- infoType -->
+	<xs:complexType name="infoType">
+		<xs:sequence>
+			<xs:element ref="langage" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- langageType -->
+	<xs:complexType name="langageType">
+		<xs:sequence>
+			<xs:element name="nom" type="max20text"></xs:element>
+			<xs:element name="niveau" type="niveauLangageType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

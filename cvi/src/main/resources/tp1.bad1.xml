@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cvi xmlns:p="http://univ.fr/cvi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://univ.fr/cvi tp1.cvi.01.xsd ">
+  <identite>
+    <nom>NOM</nom>
+  </identite>
+  <objectif>
+    <stage>Stage</stage>
+    <prenom>Prenom</prenom>
+  </objectif>
+  <prof/>
+  <competences>
+    <lv/>
+  </competences>
+  <divers>p:divers</divers>
+</cvi>

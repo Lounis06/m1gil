@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE drawing SYSTEM "drawing.dtd">
+<drawing xmlns="http://www.univ-rouen.fr/drawing">
+
+<circle color="blue">
+   <point x="400" y="300" />
+   <radius>200</radius>
+</circle>
+
+<line color="red">
+   <point x="400" y="90" />
+   <point x="600" y="500" />
+</line>
+
+<line color="red">
+   <point x="400" y="90" />
+   <point x="200" y="500" />
+</line>
+
+<line color="red">
+   <point x="200" y="400" />
+   <point x="600" y="400" />
+</line>
+
+</drawing>

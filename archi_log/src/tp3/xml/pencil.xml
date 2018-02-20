@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE drawing SYSTEM "drawing.dtd">
+<drawing xmlns="http://www.univ-rouen.fr/drawing">
+
+
+<rectangle color="black">
+   <point x="200" y="250" />
+   <point x="600" y="350" />
+</rectangle>
+
+<line color="black">
+   <point x="550" y="250" />
+   <point x="550" y="350" />
+</line>
+
+
+<line color="black">
+   <point x="200" y="300" />
+   <point x="550" y="300" />
+</line>
+
+
+<line color="black">
+   <point x="200" y="250" />
+   <point x="100" y="300" />
+</line>
+
+<line color="black">
+   <point x="200" y="350" />
+   <point x="100" y="300" />
+</line>
+
+
+<line color="black">
+   <point x="120" y="290" />
+   <point x="120" y="310" />
+</line>
+
+</drawing>

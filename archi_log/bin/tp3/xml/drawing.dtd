@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT drawing (circle|line|rectangle)*>
+<!ATTLIST drawing xmlns CDATA #FIXED "http://www.univ-rouen.fr/drawing">
+
+<!ENTITY % color "(black|red|green|blue)">
+
+<!ELEMENT circle (point,radius)>
+	<!ATTLIST circle color %color; #REQUIRED>
+
+<!ELEMENT line (point,point)>
+	<!ATTLIST line color %color; #REQUIRED>
+
+<!ELEMENT rectangle (point,point)>
+	<!ATTLIST rectangle color %color; #REQUIRED>
+
+<!ELEMENT point EMPTY>
+	<!ATTLIST point x CDATA #REQUIRED>
+	<!ATTLIST point y CDATA #REQUIRED>
+
+<!ELEMENT radius (#PCDATA)>

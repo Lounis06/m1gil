@@ -1,0 +1,29 @@
+body {
+	width: 60%;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+}
+
+header li {
+	text-align: left;
+}
+
+footer {
+	text-align: right;
+}
+
+article, section, table {
+	width: 100%;
+}
+
+article {
+	border : solid 1px red;
+	padding : 8px;
+}
+
+table tr td:first-child {
+	width : 15%;
+}

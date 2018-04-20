@@ -1,0 +1,26 @@
+.module {
+	border-style:double;
+	border-width:medium;
+	position:relative;
+	margin:1em;
+	padding:1em;
+}
+
+.mod_title {
+	background-color:lightgray;
+	padding-right:3px;
+	padding-left:3px;
+	display:inline;
+	top:-.5em;
+	position:absolute;
+}
+
+
+.error {
+	background-color:lightgray;
+	border-style:solid;
+	border-color:red;
+	border-width:medium;
+	position:relative;
+}
+

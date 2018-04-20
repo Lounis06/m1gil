@@ -1,0 +1,44 @@
+.ruler {
+  width: 7.6cm;
+}
+
+.ringSizer {
+  /** 3.5in == 335px sur l'image, taille totale init. 500px **/
+  width: 5.224in;
+}
+
+.sz5 {
+  width: 15.7mm;
+}
+
+.sz6 {
+  width: 16.5mm;
+}
+
+.sz7 {
+  width: 17.3mm;
+}
+
+.sz8 {
+  width: 18.2mm;
+}
+
+.sz9 {
+  width: 18.9mm;
+}
+
+.sz10 {
+  width: 19.8mm;
+}
+
+.sz11 {
+  width: 20.6mm;
+}
+
+.sz12 {
+  width: 21.3mm;
+}
+
+.sz13 {
+  width: 22.2mm;
+}

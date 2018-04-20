@@ -1,0 +1,122 @@
+/** Directives initiales **/
+@import url("global.css");
+@import url("components/summary.css");
+
+#editor {
+	height: 80%;
+}
+
+#editor > * {
+	margin: 2% 0% 2% 0%;
+}
+
+#bold, .main_category {
+	font-weight: bold;
+}
+
+#property_container {
+	display: table;
+	width : 100%;
+}
+
+#property_container > .property {
+	display: table-cell;
+}
+
+#property_container > .property > * {
+	display: block;
+}
+
+#select_category {
+	width : 25%;
+}
+
+.text_window {
+	border: solid 1px #333;
+	overflow: scroll;
+}
+
+.content_bar {
+	height: 100px;
+	width: 100%;
+	margin: 2% auto 4% auto;
+	background-color: rgba(48, 48, 48, 128);
+	overflow-x: scroll;
+}
+
+.content_bar > * {
+	display: inline-block;
+	position: relative;
+	border: solid 1px #333;
+	margin: 8px;
+	height: 64px;
+	background-color: #f2f2f2;
+}
+
+.content_bar > div > * {
+	vertical-align: top;
+	text-align: center;
+}
+
+.content_bar_title, #article_title {
+	background-color: #f2f2f2;
+}
+
+.content_item:hover, .option_bloc:hover{
+	background-color: #fff;
+	border-color: #eee;
+}
+
+.content_options {
+	text-align: right;
+	float: right;
+}
+
+#content_editor, #preview {
+	width : 90%;
+	margin: 2% auto 2% auto;
+}
+
+#text_editor_legend, #upload_editor_legend {
+	height: 32px;
+	width: 60%;
+	font-size: 16pt;
+	margin: 0% 2% 2% 0%;
+	overflow: hidden;
+}
+
+#text_editor_content, #preview_content {
+	min-height: 300px;
+}
+
+#text_editor_inputs {
+	height: 80px;
+}
+
+#text_editor_inputs > * {
+	height: 50%;
+	margin : 2% 0% 2% 0%;
+	vertical-align:top;
+}
+
+#italic {
+	font-style: italic;
+}
+
+#underline {
+	text-decoration: underline;
+}
+
+#text_editor {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main_inputs {
+	text-align: center;
+}
+
+#main_inputs > input {
+	text-align: center;
+	width: 20%;
+}

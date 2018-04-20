@@ -1,0 +1,127 @@
+/** 0 - Directives initiales **/
+@import url("components/menu_bar.css");
+@font-face {
+	font-family: DroidSans;
+	src: url("../resource/font/droidsans.ttf");
+}
+
+
+/** 1 - Structure de la page : Dimensions et Positionnement **/
+html, body {
+	height : 100%;
+}
+
+body, .layout {
+	width : 100%;
+	margin : 0px;
+}
+
+.layout_content {
+	position : relative;
+	margin: auto;
+	width: 75%;
+	height: 100%;
+}
+
+#header_title {
+	margin: 0px 16px 0px 16px;
+}
+
+#error_layout > .layout_content, #notification_layout > .layout_content {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#center_layout {
+	height: 100%;
+}
+
+#center_layout > .layout_content {
+	display: table;
+	height: 100%;
+}
+
+#center_layout > .layout_content > * {
+	display: table-cell;
+	vertical-align: top;
+	height: 100%;
+	padding : 8px;
+}
+
+#main_content > * {
+	margin : 2%;
+}
+
+.main_menu_separator {
+	margin : 24px 0px 24px 0px;
+}
+
+#south_layout {
+	height : 64px;
+	margin : 1% 0% 0% 0%;
+}
+
+#south_layout > .layout_content {
+	padding: 8px 0px 32px 0px;
+}
+
+#south_layout p {
+	margin: 0px;
+}
+
+
+/** 2 - Esthétique de la page : Arrière-plans, coloration et texte **/
+* {
+	font-family : "DroidSans";
+}
+
+html {
+	background-image: url("../resource/textures/footer_lodyas.png");
+}
+
+#north_layout > .layout_content {
+	background-color: #ff3311;
+	border-bottom : solid 4px #ff1000;
+}
+
+#error_layout > .layout_content {
+	background-color: #ffe6e6;
+	border : solid 1px #ff9999;
+
+	text-align : center;
+	font-size: 10pt;
+	color : #cc0000;
+}
+
+#notification_layout > .layout_content {
+	background-color: #e6ffe6;
+	border : solid 1px #99ff99;
+
+	text-align : center;
+	font-size: 10pt;
+	color : #00cc00;
+}
+
+#header_title {
+	font-size: 32pt;
+	font-weight: bold;
+	color : #fff;
+	padding: 4px;
+}
+
+#center_layout > .layout_content {
+	background-color: #fff;
+	border-top : solid 2px #3c3c3c;
+	border-bottom : solid 2px #3c3c3c;
+}
+
+#main_content {
+	background-image: url("../resource/textures/crossword.png");
+	border-right : solid 4px #f2f2f2;
+}
+
+#south_layout p {
+	text-align: right;
+	font-size: 10pt;
+	color : #fff;
+}

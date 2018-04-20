@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title> MathML et SVG </title>
+  <meta charset="utf-8">
+</head>
+
+<!-- Les espaces de noms ne sont pas nécessaires, pour l'utilisation 
+de MathML et SVG sous HTML5 -->
+<body>
+  <h2>Formule</h2>
+  <math mode="display">
+    <mrow>
+      <!-- Début de l'équation -->
+      <mi>x</mi>
+      <mo>=</mo>
+      
+      <!-- Symbole de sommation -->
+      <mrow>
+        <munderover>
+          <mo>∑</mo>
+          <mrow>
+            <mi>i</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+          </mrow>
+          <mi>n</mi>
+        </munderover>
+      </mrow>
+      
+      <!-- Fraction -->
+      <mfrac>
+        <!-- Numérateur -->
+        <msqrt>
+          <mrow>
+            <msup>
+              <msub>
+                <mi>b</mi>
+                <mi>i</mi>
+              </msub>
+            <mn>2</mn>
+            </msup>
+            <mo>-</mo>
+            <mn>4</mn>
+            <mi>i</mi>
+          </mrow>
+        </msqrt>
+        <!-- Dénominateur -->
+        <mrow>
+          <msub>
+            <mi>log</mi>
+            <mi>a</mi>
+          </msub>
+          <msup>
+            <mi>b</mi>
+            <mi>i</mi>
+          </msup>
+        </mrow>
+      </mfrac>
+
+    </mrow>
+  </math>
+  
+  <h2>Figure SVG</h2>
+  <svg>
+    <g fill-opacity="0.7" stroke="black" stroke-width="0.1cm">
+      <circle cx="6cm" cy="2cm" r="100" fill="red" transform="translate(0,50)" />
+      <circle cx="6cm" cy="2cm" r="100" fill="blue" transform="translate(70,150)"/>
+      <circle cx="6cm" cy="2cm" r="100" fill="green" transform="translate(-70,150)"/>
+    </g>
+  </svg>
+</body>
+</html>

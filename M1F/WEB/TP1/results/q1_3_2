@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+
+<head>
+    <script type="text/javascript">
+var siteurl='/';
+var tmplurl='/templates/ja_purity_ii/';
+var isRTL = false;
+</script>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="département d'informatique, licence, master,doctorat,thèse,génie logiciel,sécurité des systèmes informatiques, informatique théorique et applications,sciences,techniques,informatique,IUP,SSI,Rouen,Normandie,formation,université,ufr" />
+  <meta name="description" content="Site web du département d'informatique de l'université de Rouen" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Bienvenue sur le site du département d'informatique de l'université de Rouen</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/index.php/component/search/?format=opensearch" rel="search" title="Search Département d'informatique de l'université de Rouen" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/index.php?jat3action=gzip&amp;jat3type=css&amp;jat3file=t3-assets%2Fcss_073dd.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php?jat3action=gzip&amp;jat3type=css&amp;jat3file=t3-assets%2Fcss_12565.css?v=3" type="text/css" />
+  <script src="/index.php?jat3action=gzip&amp;jat3type=js&amp;jat3file=t3-assets%2Fjs_90420.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+function keepAlive() {	var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(840000); });
+  </script>
+
+<!--[if ie]><link href="/plugins/system/jat3/jat3/base-themes/default/css/template-ie.css" type="text/css" rel="stylesheet" /><![endif]--> 
+<!--[if ie 7]><link href="/plugins/system/jat3/jat3/base-themes/default/css/template-ie7.css" type="text/css" rel="stylesheet" /><![endif]--> 
+<!--[if ie 7]><link href="/templates/ja_purity_ii/css/template-ie7.css" type="text/css" rel="stylesheet" /><![endif]--> 
+
+
+
+
+<link href="/plugins/system/jat3/jat3/base-themes/default/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+<!--[if IE 7.0]>
+<style>
+.clearfix { display: inline-block; } /* IE7xhtml*/
+</style>
+<![endif]-->
+
+<script language="javascript" type="text/javascript">
+var rightCollapseDefault='show';
+var excludeModules='38';
+</script>
+<script language="javascript" type="text/javascript" src="/templates/ja_purity_ii/js/ja.rightcol.js"></script>
+
+<style type="text/css">
+#ja-header .main {
+	background-image: url(/templates/ja_purity_ii//images/header/header3.jpg);
+}
+</style>
+    
+    <style type="text/css">
+/*dynamic css*/
+
+    body.bd .main {width: 95%;}
+    body.bd #ja-wrapper {min-width: 95%;}
+</style></head>
+
+<body id="bd" class="bd fs3 com_content">
+<a name="Top" id="Top"></a>
+<div id="ja-wrapper">
+
+
+                <div id="ja-header"
+            	class="wrap ">
+                   <div class="main">
+                           <div class="main-inner1 clearfix">
+                <h1 class="logo">
+    <a href="/index.php" title="Département d'informatique de l'université de Rouen"><span>Département d'informatique de l'université de Rouen</span></a>
+</h1>                </div>
+                            </div>
+                        </div>
+            <div id="ja-mainnav"
+            	class="wrap ">
+                   <div class="main">
+                           <div class="main-inner1 clearfix">
+                	<div class="ja-megamenu clearfix" id="ja-megamenu">
+<ul class="megamenu level0"><li  class="mega first active"><a href="/"  class="mega first active" id="menu162" title="Accueil"><span class="menu-title">Accueil</span></a></li><li  class="mega haschild"><a href="/index.php/descdepart27"  class="mega haschild" id="menu54" title="Le département"><span class="menu-title">Le département</span></a><div class="childcontent cols1 ">
+<div class="childcontent-inner-wrap">
+<div class="childcontent-inner clearfix" style="width: 200px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level1"><li  class="mega first"><a href="/index.php/descdepart27/organigramme"  class="mega first" id="menu156" title="Organigramme"><span class="menu-title">Organigramme</span></a></li><li  class="mega"><a href="/index.php/descdepart27/les-plaquettes"  class="mega" id="menu128" title="Les plaquettes de présentation"><span class="menu-title">Les plaquettes de présentation</span></a></li><li  class="mega last"><a href="/index.php/descdepart27/linux-party-du-madrillet"  class="mega last" id="menu210" title="Linux-Party du Madrillet"><span class="menu-title">Linux-Party du Madrillet</span></a></li></ul></div></div>
+</div></div></li><li  class="mega haschild"><a href="/index.php/formations26"  class="mega haschild" id="menu55" title="Nos formations"><span class="menu-title">Nos formations</span></a><div class="childcontent cols1 ">
+<div class="childcontent-inner-wrap">
+<div class="childcontent-inner clearfix" style="width: 200px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level1"><li  class="mega first"><a href="/index.php/licence"  class="mega first" id="menu106" title="Licence Informatique"><span class="menu-title">Licence Informatique</span></a></li><li  class="mega"><a href="/index.php/accueil-mgil"  class="mega" id="menu76" title="Master Génie de l'Informatique Logicielle"><span class="menu-title">Master Génie de l'Informatique Logicielle</span></a></li><li  class="mega"><a href="/index.php/accueil-mita"  class="mega" id="menu80" title="Master Informatique Théorique et Applications"><span class="menu-title">Master Informatique Théorique et Applications</span></a></li><li  class="mega last"><a href="/index.php/accueil-mssi"  class="mega last" id="menu79" title="Master Sécurité des Systèmes Informatiques"><span class="menu-title">Master Sécurité des Systèmes Informatiques</span></a></li></ul></div></div>
+</div></div></li><li  class="mega"><a href="/index.php/inscriptions"  class="mega" id="menu195" title="Inscriptions"><span class="menu-title">Inscriptions</span></a></li><li  class="mega haschild"><a href="/index.php/entreprises"  class="mega haschild" id="menu147" title="Entreprises"><span class="menu-title">Entreprises</span></a><div class="childcontent cols1 ">
+<div class="childcontent-inner-wrap">
+<div class="childcontent-inner clearfix" style="width: 200px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level1"><li  class="mega first"><a href="/index.php/entreprises/proposer-un-stage"  class="mega first" id="menu153" title="Proposer un stage"><span class="menu-title">Proposer un stage</span></a></li><li  class="mega last"><a href="/index.php/entreprises/votre-taxe-dapprentissage"  class="mega last" id="menu154" title="Votre taxe d'apprentissage"><span class="menu-title">Votre taxe d'apprentissage</span></a></li></ul></div></div>
+</div></div></li><li  class="mega haschild"><a href="/index.php/la-recherche"  class="mega haschild" id="menu92" title="La recherche"><span class="menu-title">La recherche</span></a><div class="childcontent cols1 ">
+<div class="childcontent-inner-wrap">
+<div class="childcontent-inner clearfix" style="width: 200px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level1"><li  class="mega first"><a href="/index.php/la-recherche/seminaires"  class="mega first" id="menu189" title="Séminaires"><span class="menu-title">Séminaires</span></a></li></ul></div></div>
+</div></div></li><li  class="mega"><a href="/index.php/contacts25"  class="mega" id="menu56" title="Nous contacter"><span class="menu-title">Nous contacter</span></a></li><li  class="mega"><a href="/index.php/coming24"  class="mega" id="menu57" title="Nous rendre visite"><span class="menu-title">Nous rendre visite</span></a></li><li  class="mega last"><a href="/index.php/agendas"  class="mega last" id="menu193" title="Agendas"><span class="menu-title">Agendas</span></a></li></ul>
+</div>            <script type="text/javascript">
+                var megamenu = new jaMegaMenuMoo ('ja-megamenu', {
+                    'bgopacity': 0,
+                    'delayHide': 300,
+                    'slide'    : 0,
+                    'fading'   : 0,
+                    'direction': 'down',
+                    'action'   : 'mouseover',
+                    'tips'     : false,
+                    'duration' : 300,
+                    'hidestyle': 'fastwhenshow'
+                });
+            </script>
+                            </div>
+                            </div>
+                        </div>
+            
+<!-- jdoc:include type="menu" level="0" / -->
+
+<ul class="no-display">
+    <li><a href="#ja-content" title="Skip to content">Skip to content</a></li>
+</ul>
+    <!-- MAIN CONTAINER -->
+    <div id="ja-container" class="wrap ja-l1">
+               <div class="main clearfix">
+                   <div id="ja-mainbody" style="width:100%">
+            <!-- CONTENT -->
+            <div id="ja-main" style="width:80%">
+            <div class="inner clearfix">
+
+                
+<div id="system-message-container">
+</div>
+                
+                <div id="ja-contentwrap" class="clearfix ">
+                    <div id="ja-content" class="column" style="width:100%">
+                        <div id="ja-current-content" class="column" style="width:100%">
+                            
+                                                        <div id="ja-content-main" class="ja-content-main clearfix">
+                                
+
+<div class="blog-featured">
+
+	<h1 class="componentheading">
+	Bienvenue sur le site du département d'informatique de l'université de Rouen	</h1>
+
+<div class="items-leading">
+			<div class="leading leading-0 clearfix">
+			
+<div class="contentpaneopen clearfix">
+
+
+	<h2 class="contentheading">
+					À propos du département d'informatique de l'université de Rouen			</h2>
+
+
+
+
+
+<p><img src="/images/DIR_images/img-commun/dpt-icon.png" border="0" alt="Département d'informatique" title="Département d'informatique" width="80" height="80" style="float: left; border: 0pt none;" />Le département d'informatique de l'UFR des Sciences et des Techniques de l'<a href="http://www.univ-rouen.fr/" target="_blank">université de Rouen</a> propose une offre de <a href="/index.php/formations26" target="_self" title="Nos formations">formation</a> jusqu'à bac + 5 dans des filières à vocations professionnalisantes et de recherche.</p>
+<p><img src="/images/DIR_images/hall150.jpg" border="0" alt="Hall de l'UFR des Sciences et Techniques" title="Hall de l'UFR des Sciences et Techniques" width="150" height="226" style="float: right; border: 0pt none;" />Pour assurer les enseignements dont il a la responsabilité, le département d’informatique dispose, sur 2 000 m<sup><small class="notsmall">2</small></sup>, de moyens propres : huit salles de cours ; dix salles d’ordinateurs gérées par un ingénieur système permanent.</p>
+<p>Une trentaine d’enseignants et d’enseignants-chercheurs permanents, ainsi qu’une <strong>vingtaine d’intervenants professionnels</strong>, dispensent depuis de nombreuses années un enseignement théorique et professionnel de qualité ayant permis à nos étudiants des filières professionnelles des <strong>promotions 2005 à 2008 d’être employés à 100 % en CDI</strong> (source : Observatoire de la vie étudiante, université de Rouen).</p>
+
+
+</div>
+
+<div class="item-separator"></div>
+		</div>
+			</div>
+	
+	
+		<div class="items-row cols-2 row-0 clearfix">
+				<div class="item column-1">
+			
+<div class="contentpaneopen clearfix">
+
+
+	<h2 class="contentheading">
+					Réunions de rentrée 2016-2017			</h2>
+
+
+
+
+
+<p>Les réunions d'accueil, destinées aux étudiants inscrits ou réinscrits pour l’année universitaire 2016-2017, auront lieu :</p>
+<table>
+<thead>
+<tr><th>Filière</th><th>Date</th><th>Lieu</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/index.php/formations26" target="_self" title="Portail M.I.EEA">Portail M.I.EEEA</a> (1<sup>re</sup> année)</td>
+<td colspan="2">Selon la première lettre du nom :
+<ul>
+<li>A-K : jeudi 1<sup>er</sup> septembre, 09 h, amphi A ;</li>
+<li>L-Z : mardi 1<sup>er</sup> septembre, 14 h, amphi A.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><a href="/index.php/licence">Licence Informatique</a> 2<sup>e</sup> année</td>
+<td>Lundi 5 septembre à 10 h 30<br /><em> Les enseignements commenceront le 6 septembre<br /></em></td>
+<td>Amphi D</td>
+</tr>
+<tr>
+<td><a href="/index.php/licence">Licence Informatique</a> 3<sup>e</sup> année</td>
+<td>Lundi 5 septembre à 14 h 00<br /><em> Les enseignements commenceront le 6 septembre<br /></em></td>
+<td>Amphi D</td>
+</tr>
+<tr>
+<td><a href="/index.php/formations26?id=10020">Master Informatique</a> 1<sup>re</sup> année</td>
+<td>Lundi 5 septembre à 10 h 00<br /><em>Les enseignements commenceront dans la journée</em></td>
+<td>Amphi B</td>
+</tr>
+<tr>
+<td><a href="/index.php/accueil-mgil">Master GIL</a> 2<sup>e</sup> année</td>
+<td>Lundi 5 septembre à 10 h 00<br /><em>Les enseignements commenceront dans la journée</em></td>
+<td>Amphi E</td>
+</tr>
+<tr>
+<td><a href="/index.php/accueil-mita">Master ITA</a> 2<sup>e</sup> année</td>
+<td>Lundi 12 septembre à 10 h 00<br /><em> Les enseignements commenceront dans la journée</em></td>
+<td>salle U2.2.19</td>
+</tr>
+<tr>
+<td><a href="/index.php/accueil-mssi">Master SSI</a> 2<sup>e</sup> année</td>
+<td>
+<p>Lundi 5 septembre à 9h00<br /><em> Les enseignements commenceront dans la journée </em></p>
+</td>
+<td>Salle U2.2.18 (2<sup>e</sup> étage)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Attention :</strong> pour une même matière, plusieurs cours peuvent avoir lieu durant la semaine de reprise.</p>
+
+
+</div>
+
+<div class="item-separator"></div>
+		</div>
+						
+			<div class="item column-2">
+			
+<div class="contentpaneopen clearfix">
+
+
+	<h2 class="contentheading">
+					Linux-Party du Madrillet - 30 septembre 2016			</h2>
+
+
+
+
+
+<h1>Le 30 septembre 2016 de 9h à 17h</h1>
+<div style="float: right; background: url('/images/DIR_images/lpm/ubuntu_bg.png'); min-width: 256px; min-height: 256px;">
+<h2>Sommaire</h2>
+<ul>
+<li><strong><a href="#whatis">Qu'est-ce que Ubuntu-Linux ?</a></strong></li>
+<li><strong><a href="#presta">Découverte et aide à l'installation</a></strong></li>
+<li><strong><a href="#before">Avant de venir !</a></strong></li>
+<li><strong><a href="#inscription">Inscription</a></strong></li>
+<li><strong><a href="#where">Lieu et accès</a></strong></li>
+<li><strong><a href="#partenaires">Nos partenaires</a></strong></li>
+<li><strong><a href="#others">Autres évènements</a></strong></li>
+</ul>
+</div>
+<p><img src="/images/DIR_images/lpm/tux.png" border="0" alt="Mascotte du noyau Linux" width="104" height="120" style="border: 0; float: left;" />Ubuntu Linux est un système d'exploitation libre et gratuit. Il s'utilise à la place, ou en complément des systèmes d'exploitation propriétaires comme Windows ou MacOS. <a href="http://fr.wikipedia.org/wiki/Linux" target="_blank" title="Le noyau Linux">Linux</a> est en fait un noyau (le fameux kernel) qui est à la base de systèmes d'exploitation animant la plupart des serveurs, téléphones et tablettes, de nombreux équipements de réseau comme les routeurs (Lynksys, neufbox, freebox, ...) et domine dans le monde des super-calculateurs. Il est également à la base de nombreux systèmes d'exploitation pour ordinateurs classiques (Ubuntu, Debian, Redhat, Fedora, Mandriva, ...) déployés dans une bien moindre mesure car il est méconnu du grand public. Nous vous proposons de découvrir l'un des plus populaires d'entre-eux : Ubuntu.</p>
+<p>Bien que la plupart des distributions Linux soient extrêmement simples d'utilisation, l'installation d'un système d'exploitation, quel qu'il soit, n'est pas toujours une chose aisée pour un débutant, en particulier lorsqu'il s'agit de faire cohabiter plusieurs systèmes sur un même disque. C'est pour cette raison que l'UFR des sciences et techniques vous accueillera le vendredi 30 septembre 2016, de 9h à 17h, au Madrillet. Vous pourrez y tester Linux sans l'installer, et si celui-ci vous plaît, nous vous assisterons pour l'installer à coté de votre ancien système.</p>
+
+		<p class="readmore">
+			<a href="/index.php/descdepart27/linux-party-du-madrillet">
+					Read more: Linux-Party du Madrillet - 30 septembre 2016</a>
+		</p>
+
+
+</div>
+
+<div class="item-separator"></div>
+		</div>
+									<!--span class="row-separator"></span-->
+			</div>
+				
+
+
+</div>
+
+                            </div>
+                            
+                                                    </div>
+
+                                            </div>
+
+                    
+                </div>
+
+                            </div>
+            </div>
+            <!-- //CONTENT -->
+                        <!-- LEFT COLUMN-->
+            <div id="ja-left" class="column sidebar" style="width:20%">
+                
+                                <div class="ja-colswrap clearfix ja-l1">
+                                    <div id="ja-left1" class="ja-col  column" style="width:100%">
+                        	<div class="ja-moduletable moduletable_menu  clearfix" id="Mod87">
+						<h3><span>Menu Principal</span></h3>
+				<div class="ja-box-ct clearfix">
+		
+<ul class="menu">
+<li class="item-162 current active"><a href="/" >Accueil</a></li><li class="item-54 parent"><a href="/index.php/descdepart27" >Le département</a></li><li class="item-55 parent"><a href="/index.php/formations26" >Nos formations</a></li><li class="item-195"><a href="/index.php/inscriptions" >Inscriptions</a></li><li class="item-147 parent"><a href="/index.php/entreprises" >Entreprises</a></li><li class="item-92 parent"><a href="/index.php/la-recherche" >La recherche</a></li><li class="item-56"><a href="/index.php/contacts25" >Nous contacter</a></li><li class="item-57"><a href="/index.php/coming24" >Nous rendre visite</a></li><li class="item-193"><a href="/index.php/agendas" >Agendas</a></li></ul>
+		</div>
+    </div>
+		<div class="ja-moduletable moduletable  clearfix" id="Mod90">
+						<div class="ja-box-ct clearfix">
+		<form action="/index.php" method="post" class="search">
+		<label for="mod-search-searchword"> </label><input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox" type="text" size="15" value="Rechercher"  onblur="if (this.value=='') this.value='Rechercher';" onfocus="if (this.value=='Rechercher') this.value='';" /><input type="submit" value="Search" class="button" onclick="this.form.searchword.focus();"/>	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="162" />
+</form>
+		</div>
+    </div>
+		<div class="ja-moduletable moduletable  clearfix" id="Mod89">
+						<h3><span>Connexion</span></h3>
+				<div class="ja-box-ct clearfix">
+		<form action="https:///index.php" method="post" id="login-form" >
+		<fieldset class="userdata">
+	<p id="form-login-username">
+		<label for="modlgn-username">User Name</label>
+		<input id="modlgn-username" type="text" name="username" class="inputbox"  size="18" />
+	</p>
+	<p id="form-login-password">
+		<label for="modlgn-passwd">Password</label>
+		<input id="modlgn-passwd" type="password" name="password" class="inputbox" size="18"  />
+	</p>
+		<p id="form-login-remember">
+		<label for="modlgn-remember">Remember Me</label>
+		<input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+	</p>
+		<p id="form-login-submit">
+        <input type="submit" name="Submit" class="button" value="Log in" />
+    </p>
+	<input type="hidden" name="option" value="com_users" />
+	<input type="hidden" name="task" value="user.login" />
+	<input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xNjI=" />
+	<input type="hidden" name="da9a5c0dbe7ef68a496aee39c909eeeb" value="1" />	</fieldset>
+	<ul>
+		<li>
+			<a href="/index.php/component/users/?view=reset">
+			Forgot your password?</a>
+		</li>
+		<li>
+			<a href="/index.php/component/users/?view=remind">
+			Forgot your username?</a>
+		</li>
+			</ul>
+	</form>
+		</div>
+    </div>
+	                    </div>
+                
+                                </div>
+                                            </div>
+            <!-- //LEFT COLUMN-->
+            
+        </div>
+                        </div>
+                </div>
+        <!-- //MAIN CONTAINER -->
+
+                <div id="ja-navhelper"
+            	class="wrap ">
+                   <div class="main">
+                           <div class="main-inner1 clearfix">
+                <div class="ja-breadcrums">
+    
+</div>
+
+<ul class="ja-links">
+        <li class="top"><a href="javascript:scroll(0,0)" title="Back to top">Top</a></li>
+</ul>
+
+<ul class="no-display">
+    <li><a href="#ja-content" title="Skip to content">Skip to content</a></li>
+</ul>                </div>
+                            </div>
+                        </div>
+                        <div id="ja-footer"
+            	class="wrap ">
+                   <div class="main clearfix">
+           <div id="ja-poweredby" class="t3-logo-sm t3-logo-light-sm">
+	<a href="http://t3.joomlart.com" title="Powered By T3 Framework" target="_blank">Powered By T3 Framework</a>
+</div>  	
+<div class="ja-copyright">
+	
+</div>            </div>
+                        </div>
+            
+</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+/* Propriétés d'apparence des cellules */
+.menu * {
+  padding : 0px;
+}
+
+.menu ul {
+  width: 160px;
+  border: 2px solid grey;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.menu li {
+  background-color: darkkhaki;
+  border-bottom: 2px solid grey;
+  list-style : none;
+  height: 20px;
+}
+
+.more {
+  background: darkkhaki url("right.png") no-repeat right;
+}
+
+.menu li:hover {
+  background-color: rgb(168,168,80);
+}
+
+/* Propriétés d'apparence des textes */
+.menu li:hover {
+  color: greenyellow;
+}
+
+.menu a {
+  color: initial;
+  text-decoration: none;
+}
+
+/* Propriétés d'affichage (déroulement du menu) */
+.menu ul ul {
+  display: none;
+}
+
+.more:hover > ul {
+  display: block;
+  position: relative;
+  left: 160px;
+  bottom: 21px;
+}
+
+

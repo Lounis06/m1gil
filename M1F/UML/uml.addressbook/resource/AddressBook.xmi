@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addressbook:AddressBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:addressbook="addressbook.univrouen.fr" xsi:schemaLocation="addressbook.univrouen.fr ../model/addressbook.ecore">
+  <personne nom="ABC" prenom="def" age="26">
+    <adresse rue="23 Rue des Mimosas"/>
+  </personne>
+  <personne nom="AGEINCORRECT" prenom="fail" age="22">
+    <adresse rue="47 Rue de la Paix"/>
+  </personne>
+  <personne nom="NOMINCORRECT" prenom="fail" age="30">
+    <adresse rue="36 Quai des Orfèvres"/>
+  </personne>
+</addressbook:AddressBook>

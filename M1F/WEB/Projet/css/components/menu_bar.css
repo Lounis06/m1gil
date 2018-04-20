@@ -1,0 +1,51 @@
+/** Directives liées à l'affichage de la barre de menu */
+#login_bar > p {
+	margin : 4px;
+	text-align: right;
+}
+
+#login_form > fieldset {
+	border: solid 2px #ff3311;
+}
+
+#login_register {
+	text-decoration: none;
+	color: #ff3311;
+}
+
+#login_register:hover {
+	text-decoration: underline;
+}
+
+#main_menu {
+	width: 24%;
+	background-color: #3c3c3c;
+	border-right : solid 4px #444;
+	font-size: 10pt;
+	color : #fff;
+}
+
+.main_menu_separator {
+	border : double 3px #444;
+}
+
+.content_separator {
+	margin: 5% 0% 2% 0%;
+}
+
+#menu_links h2 {
+	text-align: center;
+	font-size: 210%;
+}
+
+#menu_links a {
+	text-decoration: none;
+}
+
+#menu_links a, #menu_links a:visited, #menu_links a:active {
+	color: #fff;
+}
+
+#menu_links a:hover {
+	color: #ff3311;
+}

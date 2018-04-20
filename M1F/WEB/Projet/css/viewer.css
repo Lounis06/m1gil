@@ -1,0 +1,104 @@
+/** Directives initiales **/
+@import url("global.css");
+@import url("components/summary.css");
+
+/** Directives sur la consultation des catégories */
+#category_infos, #article_infos {
+	font-size: 11pt;
+	color: #333;
+}
+
+a:hover, #category_infos a:hover, #article_infos a:hover {
+	color: #ff3311;
+}
+
+#category_infos a, #article_infos a{
+	color: #333;
+	text-decoration: none;
+}
+
+#subcategories, #articles {
+	width: 80%;
+	margin: auto;
+	text-decoration: none;
+	color: black;
+}
+
+#subcategories li, #articles li {
+	background-color: #333;
+	border: solid 2px black;
+	margin: 2%;
+	list-style-type: none;
+	color: #333;
+}
+
+#subcategories li:hover, #articles li:hover {
+	background-color: #ff3311;
+}
+
+#subcategories li h3, #articles li h3 {
+	text-align: center;
+}
+
+#subcategories li a, #articles li a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+#articles li h3 {
+	float: left;
+	font-size: 140%;
+	margin: 2%;
+	text-align: left;
+}
+
+#articles li p {
+	margin-top: 5%;
+	margin-right: 1%;
+	font-size: 80%;
+	text-align: right;
+	color: #f2f2f2;
+}
+
+
+
+/** Directives sur la consultation d'un article */
+#article_title {
+	font-size: 28pt;
+}
+
+#right_infos {
+	float: right;
+	text-align: right;
+}
+
+#abstract_title {
+	margin: 0% 4% 0% 4%;
+	border-bottom: solid 2px #eee;
+}
+
+#article_abstract, #article_content {
+	width: 90%;
+	margin: auto;
+	border-left: solid 2px #e0e0e0;
+	border-right: solid 2px #e0e0e0;
+}
+
+#abstract_content {
+	text-align: center;
+}
+
+/* Simule l'identation, en suivant le niveau de construction d'un article */
+.section_container, .article_item {
+	width: 90%;
+	margin: 0% 4% 0% 4%;
+}
+
+#article_content h2 {
+	border-bottom: solid 2px #eee;
+}
+
+#article_content h3, #article_content h4 {
+	text-decoration: underline;
+}

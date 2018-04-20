@@ -1,0 +1,26 @@
+.feet, .beak {
+  fill: yellow;
+}
+
+.feet {
+  stroke: black;
+}
+
+.beak:hover {
+  fill: red;
+}
+
+.belly {
+  fill: white;
+  filter: url(#BlurFilter);
+}
+
+.arms {
+  fill: #2b2b31;
+}
+
+.body, .head {
+  fill: #3f4753;
+}
+
+

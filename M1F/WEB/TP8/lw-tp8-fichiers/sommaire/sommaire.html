@@ -1,0 +1,422 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>JavaScript - Wikipédia</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="sommaire.css">
+</head>
+
+<body>
+	<div class="sommodule">
+		<span>Sommaire</span>
+		<div id="sommaire">
+		</div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading">JavaScript</h1>
+	<div id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+
+
+<h2 id="Introduction">Introduction</h2>
+
+<p><b>JavaScript</b> est un <a href="/wiki/Langage_de_programmation" title="Langage de programmation">langage de programmation</a> de <a href="/wiki/Langage_de_script" title="Langage de script">scripts</a> principalement utilisé dans les <a href="/wiki/Pages_web" title="Pages web" class="mw-redirect">pages web</a> interactives mais aussi côté serveur<sup id="cite_ref-0" class="reference"><a href="#cite_note-0"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>. C'est un langage <a href="/wiki/Programmation_orient%C3%A9e_objet" title="Programmation orientée objet">orienté objet</a> à <a href="/wiki/Programmation_orient%C3%A9e_prototype" title="Programmation orientée prototype">prototype</a>, c'est-à-dire que les bases du langage et ses principales interfaces sont fournies par des <a href="/wiki/Objet_(informatique)" title="Objet (informatique)">objets</a> qui ne sont pas des <a href="/wiki/Instance_(programmation)" title="Instance (programmation)">instances</a> de <a href="/wiki/Classe_(informatique)" title="Classe (informatique)">classes</a>, mais qui sont chacun équipés de <a href="/wiki/Constructeur_(programmation_informatique)" title="Constructeur (programmation informatique)" class="mw-redirect">constructeurs</a> permettant de générer leurs propriétés, et notamment une propriété de prototypage qui permet d'en générer des objets <a href="/wiki/H%C3%A9ritage_(informatique)" title="Héritage (informatique)">héritiers</a> personnalisés.</p>
+
+<p>Le langage a été créé en 1995 par <a href="/wiki/Brendan_Eich" title="Brendan Eich">Brendan Eich</a> pour le compte de <a href="/wiki/Netscape_Communications_Corporation" title="Netscape Communications Corporation" class="mw-redirect">Netscape Communications Corporation</a>. Le langage, actuellement à la version 1.8.2 est une implémentation de la 3<sup>e</sup> version de la norme <a href="/wiki/ECMAScript" title="ECMAScript">ECMA-262</a> qui intègre également des éléments inspirés du <a href="/wiki/Langage_Python" title="Langage Python" class="mw-redirect">langage Python</a>. La version 1.8.5 du langage est prévue pour intégrer la 5<sup>e</sup> version du standard ECMA<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>.</p>
+
+
+<h2 id="Histoire">Histoire</h2>
+
+<p>Le langage a été créé en 1995 par <a href="/wiki/Brendan_Eich" title="Brendan Eich">Brendan Eich</a> pour le compte de la <a href="/wiki/Netscape_Communications_Corporation" title="Netscape Communications Corporation" class="mw-redirect">Netscape Communications Corporation</a>, qui s'est inspiré de nombreux langages, notamment de <a href="/wiki/Java_(langage)" title="Java (langage)">Java</a> mais en simplifiant la syntaxe pour les débutants<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite_crochet">[</span>3<span class="cite_crochet">]</span></a></sup>.</p>
+<h3 id="LiveScript_et_Mosaic_Communications_Corporation">LiveScript et Mosaic Communications Corporation</h3>
+
+<p><a href="/wiki/Brendan_Eich" title="Brendan Eich">Brendan Eich</a> a initialement développé un langage de script côté serveur, appelé <i>LiveScript</i>, pour renforcer l'offre commerciale de <a href="/wiki/Serveur_HTTP" title="Serveur HTTP">serveur HTTP</a> de <a href="/wiki/Mosaic_Communications_Corporation" title="Mosaic Communications Corporation" class="mw-redirect">Mosaic Communications Corporation</a>. La sortie de LiveScript intervient à l'époque où la <a href="/wiki/NCSA" title="NCSA" class="mw-redirect">NCSA</a> force <a href="/wiki/Mosaic_Communications_Corporation" title="Mosaic Communications Corporation" class="mw-redirect">Mosaic Communications Corporation</a> à changer de nom pour devenir <a href="/wiki/Netscape_Communications_Corporation" title="Netscape Communications Corporation" class="mw-redirect">Netscape Communications Corporation</a>.</p>
+
+<p>Netscape travaille alors au développement d'une version orientée client de LiveScript. Quelques jours avant sa sortie, Netscape change le nom de LiveScript pour JavaScript. <a href="/wiki/Sun_Microsystems" title="Sun Microsystems">Sun Microsystems</a> et Netscape étaient partenaires, et la <a href="/wiki/Machine_virtuelle" title="Machine virtuelle">machine virtuelle</a> <a href="/wiki/Java_(langage)" title="Java (langage)">Java</a> de plus en plus populaire. Ce changement de nom servait les intérêts des deux sociétés.</p>
+<h3 id="Netscape_et_ECMAScript">Netscape et ECMAScript</h3>
+<p>En <a href="/wiki/D%C3%A9cembre_1995" title="Décembre 1995">décembre</a>&#160;<a href="/wiki/1995" title="1995">1995</a>, Sun et Netscape annoncent<sup id="cite_ref-newsrelease67_3-0" class="reference"><a href="#cite_note-newsrelease67-3"><span class="cite_crochet">[</span>4<span class="cite_crochet">]</span></a></sup> la sortie de JavaScript. En <a href="/wiki/Mars_1996" title="Mars 1996">mars</a>&#160;<a href="/wiki/1996" title="1996">1996</a>, Netscape <a href="/wiki/Mise_en_%C5%93uvre" title="Mise en œuvre">met en œuvre</a> le moteur JavaScript dans son <a href="/wiki/Navigateur_Web" title="Navigateur Web">navigateur Web</a> <a href="/wiki/Netscape_Navigator" title="Netscape Navigator">Netscape Navigator</a> 2.0. Le succès de ce navigateur contribue à l'adoption rapide de JavaScript dans le développement web orienté client. <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a> réagit alors en développant <a href="/wiki/JScript" title="JScript">JScript</a>, qu'il inclut ensuite dans <a href="/wiki/Internet_Explorer" title="Internet Explorer">Internet Explorer</a> 3.0 en <a href="/wiki/Ao%C3%BBt_1996" title="Août 1996">août</a>&#160;<a href="/wiki/1996" title="1996">1996</a> pour la sortie de son navigateur.</p>
+
+<p>Netscape soumet alors JavaScript à <a href="/wiki/Ecma_International" title="Ecma International">Ecma International</a> pour standardisation. Les travaux débutent en <a href="/wiki/Novembre_1996" title="Novembre 1996">novembre</a>&#160;<a href="/wiki/1996" title="1996">1996</a>, et se terminent en <a href="/wiki/Juin_1997" title="Juin 1997">juin</a>&#160;<a href="/wiki/1997" title="1997">1997</a> par l'adoption du nouveau standard <a href="/wiki/ECMAScript" title="ECMAScript">ECMAScript</a>. Les spécifications sont rédigées dans le document <i>Standard ECMA-262</i>.</p>
+<p>JavaScript est décrit comme un complément à <a href="/wiki/Java_(langage)" title="Java (langage)">Java</a> dans un communiqué de presse<sup id="cite_ref-newsrelease67_3-1" class="reference"><a href="#cite_note-newsrelease67-3"><span class="cite_crochet">[</span>4<span class="cite_crochet">]</span></a></sup> commun de Netscape et Sun Microsystems, daté du <a href="/wiki/4_d%C3%A9cembre" title="4 décembre">4</a>&#160;<a href="/wiki/D%C3%A9cembre_1995" title="Décembre 1995">décembre</a>&#160;<a href="/wiki/1995" title="1995">1995</a>. Cette initiative a contribué à créer auprès du public une certaine confusion entre les deux langages, proches syntaxiquement mais pas du tout dans leurs concepts fondamentaux, et qui perdure encore aujourd'hui.</p>
+
+<h3 id="Mise_en_.C5.93uvre">Mise en œuvre</h3>
+<p>La troisième édition d'<a href="/wiki/ECMAScript" title="ECMAScript">ECMAScript</a>, parue en <a href="/wiki/1999" title="1999">1999</a> correspond à la version 1.5 de JavaScript. Sa mise en œuvre par <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a> est <a href="/wiki/JScript" title="JScript">JScript</a>. Adobe pour sa part, met en œuvre ces spécifications dans son langage <a href="/wiki/ActionScript" title="ActionScript">ActionScript</a>.</p>
+
+<p><a href="/wiki/SpiderMonkey" title="SpiderMonkey">SpiderMonkey</a> est le nom de la mise en œuvre en <a href="/wiki/Langage_C" title="Langage C" class="mw-redirect">langage C</a>, sous la licence «&#160;MPL/GPL/LGPL tri-license&#160;», du langage JavaScript utilisé dans <a href="/wiki/Gecko_(moteur_de_rendu)" title="Gecko (moteur de rendu)">Gecko</a>, le moteur de rendu développé par <a href="/wiki/Mozilla" title="Mozilla">Mozilla</a>.</p>
+<h2 id="Concepts">Concepts</h2>
+
+<p>Le propos de JavaScript est de manipuler de façon simple des <a href="/wiki/Programmation_orient%C3%A9e_objet" title="Programmation orientée objet">objets</a>, au sens informatique, fournis par une application hôte.</p>
+<h3 id="Hello_world">Hello world</h3>
+<p>Voici l'exemple classique du "<a href="/wiki/Hello_world" title="Hello world">Hello world</a>" en JavaScript, lorsque l'application hôte est un <a href="/wiki/Navigateur_Web" title="Navigateur Web">navigateur Web</a>.</p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+
+<div class="javascript source-javascript">
+<pre class="de1">
+<span class="kw3">alert</span><span class="br0">(</span><span class="st0">"Hello world"</span><span class="br0">)</span><span class="sy0">;</span>
+</pre></div>
+</div>
+<p>Dans l'application hôte, <i>alert</i> est une méthode de la classe <a href="/wiki/Document_Object_Model" title="Document Object Model">DOM</a> <i>window</i>, mais celle-ci étant récurrente, c'est une des seules classes dont on ne doit pas forcément préciser le nom pour utiliser ses méthodes.</p>
+
+<p>La syntaxe</p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+<pre class="de1">
+window.<span class="kw3">alert</span><span class="br0">(</span><span class="st0">"Hello world"</span><span class="br0">)</span><span class="sy0">;</span>
+</pre></div>
+</div>
+<p>aura donc exactement le même résultat.</p>
+<h2 id="Versions_du_langage">Versions du langage</h2>
+
+<p>Les versions récentes du langage JavaScript ont pour origine les spécifications de la norme ECMA-262 définissant ECMAScript. JavaScript est un sur-ensemble d'ECMAScript développé par la fondation Mozilla et par Adobe lui ajoutant les fonctionnalités suivantes&#160;:</p>
+<h3 id="Version_1.5">Version 1.5</h3>
+<p>Interpréteur basé sur les spécifications ECMA-262 3<sup>e</sup> édition.</p>
+<h3 id="Version_1.6">Version 1.6</h3>
+
+<ul>
+<li>E4X</li>
+<li>extension de l'objet Array</li>
+<li>rapprochement des objets String et Array</li>
+</ul>
+<p><a rel="nofollow" class="external text" href="http://developer.mozilla.org/fr/docs/Nouveaut%C3%A9s_dans_JavaScript_1.6">Liste plus complète</a></p>
+<h3 id="Version_1.7">Version 1.7</h3>
+<ul>
+
+<li>générateurs (instruction yield)</li>
+<li>itérateurs</li>
+<li>définition de tableaux par compréhension (var evens = [i for (i in range(0, 21)) if (i% 2 == 0)];)</li>
+<li>définition de portée locale (instruction let)</li>
+<li>assignation déstructurante (renvoi de valeurs multiples&#160;: [a,b] = maFonction())</li>
+</ul>
+<p><a rel="nofollow" class="external text" href="http://developer.mozilla.org/fr/docs/Nouveaut%C3%A9s_dans_JavaScript_1.7">Liste plus complète</a></p>
+<h3 id="Version_1.8">Version 1.8</h3>
+
+<ul>
+<li>extension des fermetures d'expressions</li>
+<li>extension des expressions génératrices</li>
+<li>plus d'extras pour les tableaux</li>
+</ul>
+<p><a rel="nofollow" class="external text" href="http://developer.mozilla.org/fr/docs/Nouveaut%C3%A9s_dans_JavaScript_1.8">Liste plus complète</a></p>
+<h3 id="Version_2.0">Version 2.0</h3>
+<p>Le développement d'une version 2 de JavaScript basée sur les spécifications du langage <a href="/wiki/ECMAScript" title="ECMAScript">ECMAScript</a> Edition 4 en collaboration avec <a href="/wiki/Adobe_Systems" title="Adobe Systems">Adobe</a>, le <a href="/wiki/Projet_Tamarin" title="Projet Tamarin">projet Tamarin</a>, a aujourd'hui été abandonné. La norme un temps rédigée par l'<a href="/wiki/Ecma_International" title="Ecma International">ECMA</a> dans le document ECMA-262 4<sup>e</sup> édition est en effet obsolète et a été remplacée par ES5<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span class="cite_crochet">[</span>5<span class="cite_crochet">]</span></a></sup>.</p>
+
+<h2 id="Utilisation">Utilisation</h2>
+<h3 id="Dans_une_page_Web">Dans une page Web</h3>
+<p>Du code JavaScript peut être intégré directement au sein des <a href="/wiki/Page_Web" title="Page Web" class="mw-redirect">pages Web</a>, pour y être exécuté sur le poste <a href="/wiki/Client-serveur" title="Client-serveur">client</a>. C'est alors le <a href="/wiki/Navigateur_Web" title="Navigateur Web">navigateur Web</a> qui prend en charge l'exécution de ces programmes appelés scripts.</p>
+
+<p>Généralement, JavaScript sert à contrôler les données saisies dans des formulaires <a href="/wiki/Hypertext_Markup_Language" title="Hypertext Markup Language">HTML</a>, ou à interagir avec le document HTML <i>via</i> l'interface <a href="/wiki/Document_Object_Model" title="Document Object Model">Document Object Model</a>, fournie par le navigateur (on parle alors parfois de <a href="/wiki/DHTML" title="DHTML" class="mw-redirect">HTML dynamique</a> ou DHTML). Il est aussi utilisé pour réaliser des services dynamiques, parfois futiles, strictement cosmétiques ou à des fins ergonomiques.</p>
+<p>JavaScript n'est pas limité à la manipulation de documents HTML et peut aussi servir à manipuler des documents <a href="/wiki/SVG" title="SVG" class="mw-redirect">SVG</a>, <a href="/wiki/XUL" title="XUL" class="mw-redirect">XUL</a> et autres <a href="/wiki/Dialecte_XML" title="Dialecte XML" class="mw-redirect">dialectes XML</a> .</p>
+
+<h4 id="Incompatibilit.C3.A9s">Incompatibilités</h4>
+<p><a href="/wiki/Netscape_Communications_Corporation" title="Netscape Communications Corporation" class="mw-redirect">Netscape</a> et <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a> (avec <i><a href="/wiki/JScript" title="JScript">JScript</a></i> dans <a href="/wiki/Internet_Explorer" title="Internet Explorer">Internet Explorer</a>) ont développé leur propre variante de ce langage qui chacune supporte presque intégralement la norme ECMAScript mais possède des fonctionnalités supplémentaires et incompatibles, rarement utilisées dans le cadre de la programmation de pages web. Pourtant les scripts JavaScript sont souvent la source de difficultés. Elles sont plus souvent dues à la prise en charge des différentes versions des modèles d'objets (<a href="/wiki/Document_Object_Model" title="Document Object Model">DOM</a>) fournis par les navigateurs, qu'à des problèmes de <a href="/wiki/Portabilit%C3%A9" title="Portabilité">portabilité</a> du langage (les différentes mises en œuvre respectant relativement bien la norme ECMAScript).</p>
+
+<p>Face à ce problème on utilise souvent une construction du type&#160;:</p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+<pre class="de1">
+<span class="kw1">if</span> <span class="br0">(</span>monObjet.<span class="me1">methode</span><span class="br0">)</span> <span class="br0">{</span> 
+  monObjet.<span class="me1">methode</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+
+<span class="br0">}</span>
+</pre></div>
+</div>
+<p>Il est toutefois préférable d'utiliser une comparaison sur le type&#160;:</p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+<pre class="de1">
+<span class="kw1">if</span> <span class="br0">(</span><span class="kw1">typeof</span> monObjet.<span class="me1">methode</span> <span class="sy0">!==</span> <span class="st0">'undefined'</span><span class="br0">)</span> <span class="br0">{</span>
+
+  monObjet.<span class="me1">methode</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span>
+</pre></div>
+</div>
+<p>Ou mieux encore&#160;:</p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+<pre class="de1">
+
+<span class="kw1">if</span> <span class="br0">(</span><span class="kw1">typeof</span> monObjet.<span class="me1">methode</span> <span class="sy0">===</span> <span class="st0">'function'</span><span class="br0">)</span> <span class="br0">{</span>
+  monObjet.<span class="me1">methode</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+
+<span class="br0">}</span>
+</pre></div>
+</div>
+<p>On vérifie ainsi que <i>monObjet</i> a bien une mise en œuvre de <i>methode</i> que l'on peut alors utiliser. Le plus souvent, si un navigateur ne gère pas la <i>methode</i> de <i>monObjet</i>, il gère une méthode comparable <i>methode2</i>, et on peut alors adapter le code JavaScript au navigateur qui l'exécute&#160;:</p>
+
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+<pre class="de1">
+<span class="kw1">if</span> <span class="br0">(</span>monObjet.<span class="me1">methode</span><span class="br0">)</span> <span class="br0">{</span>
+  monObjet.<span class="me1">methode</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+
+<span class="br0">}</span>
+<span class="kw1">else</span> <span class="kw1">if</span> <span class="br0">(</span>monObjet.<span class="me1">methode2</span><span class="br0">)</span> <span class="br0">{</span>
+  monObjet.<span class="me1">methode2</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+
+<span class="br0">}</span>
+</pre></div>
+</div>
+<p>Une autre méthode consiste à vérifier, côté serveur, le navigateur utilisé par le client et d'envoyer le code correspondant. Cela n'est toutefois pas recommandable, car il est largement préférable de tester directement l'existence, le comportement d'une fonction, d'une propriété,&#160;<abbr class="abbr" title="et cetera">etc.</abbr> plutôt que de faire des présomptions basées sur la détection du navigateur.</p>
+<h4 id="Ajax">Ajax</h4>
+<div class="detail">Article détaillé&#160;: <a href="/wiki/Ajax_(informatique)" title="Ajax (informatique)">Ajax (informatique)</a>.</div>
+
+<p>JavaScript est utilisé dans la méthode <a href="/wiki/Ajax_(informatique)" title="Ajax (informatique)">Ajax</a> (de l'anglais <i><span class="lang-en" lang="en" xml:lang="en">Asynchronous Javascript And XML</span></i>) qui sert à modifier le contenu des pages web par programmation. Suite à des manipulations de l'utilisateur, des scripts en langage JavaScript vont envoyer des demandes au serveur Web en utilisant l'objet <a href="/wiki/XMLHTTPRequest" title="XMLHTTPRequest" class="mw-redirect">XMLHTTPRequest</a>. Puis des scripts vont modifier le contenu de la page web en fonction de la réponse reçue; la réponse est en format <a href="/wiki/XML" title="XML" class="mw-redirect">XML</a> et le script manipule l'ensemble d'objets <a href="/wiki/Document_Object_Model" title="Document Object Model">DOM</a> qui représente le contenu de la page. Les technologies <a href="/wiki/XMLHTTPRequest" title="XMLHTTPRequest" class="mw-redirect">XMLHTTPRequest</a>, <a href="/wiki/XML" title="XML" class="mw-redirect">XML</a> et <a href="/wiki/DOM" title="DOM">DOM</a> ont été ajoutées aux navigateurs web entre 1995 et 2005. La méthode Ajax permet de réaliser des <a href="/wiki/Web_2.0#Application_Internet_riche" title="Web 2.0">applications Internet riches</a>, offrant une maniabilité et un confort supérieur; c'est un des sujets phare du mouvement <a href="/wiki/Web_2.0" title="Web 2.0">Web 2.0</a>.</p>
+
+<h4 id="JSON">JSON</h4>
+<div class="detail">Article détaillé&#160;: <a href="/wiki/JavaScript_Object_Notation" title="JavaScript Object Notation">JavaScript Object Notation</a>.</div>
+<p><a href="/wiki/JSON" title="JSON" class="mw-redirect">JSON</a> (<i><span class="lang-en" lang="en" xml:lang="en">JavaScript Object Notation</span></i>) est un format utilisant la notation des objets JavaScript pour transmettre de l'information structurée, d'une façon plus compacte et plus proche des <a href="/wiki/Langages_de_programmation" title="Langages de programmation" class="mw-redirect">langages de programmation</a>, que XML.</p>
+
+<p>Malgré l'existence du DOM et l'introduction récente de E4X (voir ci-dessous) dans la spécification du langage JavaScript, JSON reste le moyen le plus simple d'accéder à des données, puisque chaque flux JSON n'est rien d'autre qu'un objet JavaScript sérialisé. De plus, malgré son lien historique (et technique) avec JavaScript, JSON reste un format de données structurées, et peut être utilisé facilement par tous les langages de programmation.</p>
+<p>Depuis 2009, les navigateurs commencent à intégrer un support natif du format JSON, ce qui facilite sa manipulation, la sécurité (contre l'évaluation de scripts malveillants inclus dans une chaine JSON), et la rapidité de traitement. Ainsi les navigateurs <a href="/wiki/Firefox" title="Firefox" class="mw-redirect">Firefox</a> et <a href="/wiki/Internet_Explorer" title="Internet Explorer">IE</a><sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span class="cite_crochet">[</span>6<span class="cite_crochet">]</span></a></sup> l'intègrent respectivement dès les versions 3.5 et 8.</p>
+<h3 id="Autres_utilisations">Autres utilisations</h3>
+
+<h4 id="Sur_un_serveur_web">Sur un serveur web</h4>
+<p>JavaScript peut également être utilisé comme langage de programmation sur un <a href="/wiki/Serveur_HTTP" title="Serveur HTTP">serveur HTTP</a> à l'image des langages comme <a href="/wiki/PHP" title="PHP">PHP</a>, <a href="/wiki/Active_Server_Pages" title="Active Server Pages">ASP</a>, etc. D'ailleurs le projet <a href="/wiki/CommonJS" title="CommonJS">CommonJS</a> travaille dans le but de spécifier un écosystème pour JavaScript en dehors du navigateur (par exemple sur le serveur ou pour les applications de bureau natives). Le projet a été lancé par Kevin Dangoor en janvier 2009. Le projet CommonJS n'est pas affilié avec le groupe de l'Ecma International TC39 travaillant sur ECMAScript, mais certains membres du TC39 participent au projet.</p>
+
+<p>Historiquement, JavaScript était proposé sur les serveurs de <a href="/wiki/Netscape_Communications_Corporation" title="Netscape Communications Corporation" class="mw-redirect">Netscape</a>, par la suite distribués par <a href="/wiki/Sun_Microsystems" title="Sun Microsystems">Sun Microsystems</a> sous les noms <a href="/wiki/IPlanet" title="IPlanet">iPlanet</a> et <a href="/w/index.php?title=Sun_ONE&amp;action=edit&amp;redlink=1" class="new" title="Sun ONE (page inexistante)">Sun ONE</a>, mais <a href="/wiki/JScript" title="JScript">JScript</a> peut aussi être utilisé sur les serveurs <a href="/wiki/Internet_Information_Services" title="Internet Information Services">Internet Information Services</a> de <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a>. JScript peut d'ailleurs servir pour scripter une plate-forme <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a> via <a href="/wiki/Windows_Scripting_Host" title="Windows Scripting Host">Windows Scripting Host</a> (WSH).</p>
+
+<h4 id="Autres_supports">Autres supports</h4>
+<p>On peut encore citer <a href="/wiki/ActionScript" title="ActionScript">ActionScript</a>, utilisé dans <a href="/wiki/Macromedia_Flash" title="Macromedia Flash" class="mw-redirect">Macromedia Flash</a> qui est aussi une mise en œuvre d'ECMAScript. Il permet de manipuler tous les éléments de l'animation, considérés comme des objets. JavaScript peut être utilisé pour scripter les applications Adobe (Photoshop, Illustrator...), ce qui permet d'avoir des scripts indépendants de la plate-forme (Mac/Windows).</p>
+<p>JavaScript est enfin utilisé dans la plate-forme de développement <a href="/wiki/Mozilla" title="Mozilla">Mozilla</a>, sur laquelle sont basés plusieurs logiciels comme des <a href="/wiki/Navigateur_Web" title="Navigateur Web">navigateurs Web</a>, pour des tâches relatives à l'interface utilisateur et de communication interne (exemple&#160;: les extensions de <a href="/wiki/Mozilla_Firefox" title="Mozilla Firefox">Firefox</a> et <a href="/wiki/Mozilla_Thunderbird" title="Mozilla Thunderbird">Thunderbird</a> sont installées à base de fichiers <a href="/wiki/XPI" title="XPI" class="mw-redirect">XPI</a> utilisant le JavaScript. Voir aussi <a href="/wiki/Prefs.js" title="Prefs.js" class="mw-redirect">Prefs.js</a>).</p>
+
+<p>Depuis 2004, l'objet "js" de l'environnement de programmation graphique <a href="/wiki/Max/MSP" title="Max/MSP">Max/MSP</a>, permet d'ouvrir une fenêtre pour programmer en JavaScript, au sein même d'un programme <a href="/wiki/Max/MSP" title="Max/MSP">Max/MSP</a>.</p>
+<p>Les logiciels <a href="/wiki/ImageJ" title="ImageJ">ImageJ</a> et <a href="/wiki/CaRMetal" title="CaRMetal">CaRMetal</a> sont munis de consoles JavaScript, qui leur permet d'écrire des scripts dans un contexte graphique. Et <a href="/wiki/Algobox" title="Algobox">Algobox</a> utilise JavaScript pour la syntaxe de ses fonctions.</p>
+
+<p>JavaScript est aussi utilisé dans un contenu <a href="/wiki/BIFS" title="BIFS">BIFS</a> pour l'exploitation des événements. Pour cela la spécification BIFS fournit un nœud Script pour incorporer de l'ECMAScript.</p>
+<p>La suite bureautique <a href="/wiki/OpenOffice.org" title="OpenOffice.org">OpenOffice.org</a> permet d'utiliser JavaScript comme langage de macros (Linux/Mac/Solaris/Windows).</p>
+<p>JavaScript est aussi utilisable en <a href="/wiki/Shell_(informatique)" title="Shell (informatique)">shell</a><sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite_crochet">[</span>7<span class="cite_crochet">]</span></a></sup> ou avec les gadgets Vista.</p>
+
+<h2 id="Particularit.C3.A9s_du_langage">Particularités du langage</h2>
+<h3 id="Port.C3.A9e_des_variables">Portée des variables</h3>
+<p>En Javascript il n'existe pas de portée lexicale de type bloc comme en Java (ou dans de nombreux autres langages). La portée des variables est au niveau de la fonction où elles sont déclarées, c'est-à-dire que toute variable déclarée dans le corps d'une fonction y est utilisable, peu importe où se situe sa déclaration&#160;:</p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+
+<pre class="de1">
+<span class="kw2">function</span> test<span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span>
+    i <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">;</span> <span class="co1">// cette affectation affectera la variable locale i (qui est déclarée plus loin)</span>
+
+    <span class="br0">{</span>
+        <span class="kw1">for</span><span class="br0">(</span><span class="kw2">var</span> j <span class="sy0">=</span> i<span class="sy0">;</span> j <span class="sy0">&gt;</span> <span class="nu0">0</span><span class="sy0">;</span> j<span class="sy0">--</span><span class="br0">)</span> <span class="br0">{</span> <span class="co1">// déclaration de la variable locale j</span>
+
+            <span class="kw2">var</span> k <span class="sy0">=</span> j<span class="sy0">*</span><span class="nu0">2</span><span class="sy0">;</span> <span class="co1">// déclaration de la variable locale k</span>
+            l <span class="sy0">=</span> <span class="nu0">42</span><span class="sy0">;</span> <span class="co1">// aucune variable locale ne s'appelant l, c'est la propriété l du Global Object qui va être changée</span>
+
+        <span class="br0">}</span>
+        <span class="kw2">var</span> i<span class="sy0">;</span> <span class="co1">// déclaration de la variable locale i</span>
+    <span class="br0">}</span>
+    <span class="kw1">return</span> <span class="br0">[</span>i<span class="sy0">,</span> j<span class="sy0">,</span> k<span class="br0">]</span><span class="sy0">;</span> <span class="co1">// toutes les variables déclarées dans la fonction sont utilisables ici (même en dehors de leur bloc)</span>
+
+<span class="br0">}</span>
+</pre></div>
+</div>
+<p>Toute variable déclarée n'importe où dans le corps de la fonction étant déclarée dans toute la fonction, certains développeurs choisissent par convention de toutes les déclarer au début de celle-ci (comme en <a href="/wiki/C_(langage)" title="C (langage)">ANSI C</a>). Le code source précédent est donc équivalent à celui-ci&#160;:</p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+<pre class="de1">
+<span class="kw2">function</span> test<span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span>
+
+    <span class="kw2">var</span> i <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">,</span> j<span class="sy0">,</span> k<span class="sy0">;</span> <span class="co1">// déclaration (et affectation éventuelle) de toutes les variables</span>
+
+    <span class="kw1">for</span><span class="br0">(</span>j <span class="sy0">=</span> i<span class="sy0">;</span> j <span class="sy0">&gt;</span> <span class="nu0">0</span><span class="sy0">;</span> j<span class="sy0">--</span><span class="br0">)</span> <span class="br0">{</span>
+
+        k <span class="sy0">=</span> j<span class="sy0">*</span><span class="nu0">2</span><span class="sy0">;</span>
+        l <span class="sy0">=</span> <span class="nu0">42</span><span class="sy0">;</span>
+    <span class="br0">}</span>
+
+    <span class="kw1">return</span> <span class="br0">[</span>i<span class="sy0">,</span> j<span class="sy0">,</span> k<span class="br0">]</span><span class="sy0">;</span>
+<span class="br0">}</span>
+</pre></div>
+
+</div>
+<p>La portée lexicale d'une variable locale à une fonction A s'étend aux déclarations de fonctions faites à l'intérieur de A, et ainsi de suite. L'inverse n'est pas vrai&#160;:</p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+<pre class="de1">
+<span class="kw2">function</span> A<span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span>
+    <span class="kw2">var</span> p <span class="sy0">=</span> <span class="nu0">2</span><span class="sy0">;</span> <span class="co1">// déclaration d'une variable p locale à A</span>
+
+    <span class="kw2">function</span> B<span class="br0">(</span>p<span class="br0">)</span> <span class="br0">{</span> <span class="co1">// le paramètre p se comporte en portée comme une variable locale à B, qui masque la variable p de A.</span>
+        <span class="kw2">var</span> j <span class="sy0">=</span> p<span class="sy0">;</span> <span class="co1">// déclaration de la variable j locale à B</span>
+
+        <span class="kw1">return</span> j <span class="sy0">-</span> i<span class="sy0">;</span> <span class="co1">// B à accès à la variable i déclarée dans A</span>
+    <span class="br0">}</span>
+    <span class="kw2">var</span> i <span class="sy0">=</span> <span class="nu0">5</span><span class="sy0">;</span> <span class="co1">// déclaration (et affectation) de i</span>
+
+    <span class="kw3">alert</span><span class="br0">(</span> B<span class="br0">(</span>p<span class="sy0">*</span><span class="nu0">3</span><span class="br0">)</span> <span class="br0">)</span><span class="sy0">;</span> <span class="co1">// appelle B(2*3) car p fait ici référence à la variable locale à A ; affichera 1 (2*3 - 5)</span>
+    <span class="kw1">return</span> j<span class="sy0">;</span> <span class="co1">// cette ligne provoquera une ReferenceError: A n'a pas accès à la variable j locale à B</span>
+
+<span class="br0">}</span>
+</pre></div>
+</div>
+<p>C'est ce qu'on appelle la chaîne de portée (<i>scope chain</i>). Lorsque l'on fait référence à une variable, celle-ci est d'abord cherchée dans la fonction courante. Si elle n'y est pas, elle est cherchée dans la fonction ayant déclaré la fonction courante, et ainsi de suite jusqu'à la portée globale (<i>global scope</i>). Si elle reste introuvable, une exception de type <i>ReferenceError</i> est levée.</p>
+<h3 id="Fonctions_anonymes">Fonctions anonymes</h3>
+
+<p>Une fonction anonyme est, comme son nom l'indique, une fonction qui n'a pas de nom.</p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+<pre class="de1">
+<span class="co1">//Exemple 1</span>
+ 
+<span class="kw2">var</span> maFonction <span class="sy0">=</span> <span class="kw2">function</span><span class="br0">(</span>message<span class="br0">)</span> <span class="br0">{</span>
+
+  <span class="kw3">alert</span><span class="br0">(</span>message<span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span><span class="sy0">;</span>
+ 
+<span class="co1">// affiche: ceci est un test</span>
+maFonction<span class="br0">(</span><span class="st0">'ceci est un test'</span><span class="br0">)</span><span class="sy0">;</span>
+
+</pre></div>
+</div>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="html4strict source-html4strict">
+<pre class="de1">
+<span class="sc-1">&lt;!-- Exemple 2 --&gt;</span>
+<span class="sc2">&lt;<span class="kw2">html</span>&gt;</span>
+  <span class="sc2">&lt;<span class="kw2">body</span> <span class="kw3">onload</span><span class="sy0">=</span><span class="st0">"setTimeout( function() { </span>
+<span class="sc2">    alert( 'chargement de la page terminé il y a une seconde et demie' ) </span>
+
+<span class="sc2">    }, 1500 );"</span>&gt;</span>
+  <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">body</span>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">html</span>&gt;</span>
+</pre></div>
+</div>
+<h3 id="Fermetures">Fermetures</h3>
+
+<p>Les <a href="/wiki/Fermeture_(informatique)" title="Fermeture (informatique)">fermetures</a>, plus couramment désignées par leur dénomination anglaise «&#160;<span class="lang-en" lang="en" xml:lang="en">closures</span>&#160;», constituent une caractéristique particulièrement puissante du langage mais souvent méconnue des débutants. Il s'agit de la possibilité, pour une expression, d'accéder à des variables qui ne sont plus à sa portée.</p>
+<p><br /></p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+<pre class="de1">
+<span class="co1">//Exemple de fermeture</span>
+ 
+<span class="kw2">function</span> ajouteur<span class="br0">(</span>nombre<span class="br0">)</span> <span class="br0">{</span>
+
+  <span class="kw2">function</span> ajoute<span class="br0">(</span>valeur<span class="br0">)</span> <span class="br0">{</span>
+    <span class="kw1">return</span> valeur <span class="sy0">+</span> nombre<span class="sy0">;</span>
+
+  <span class="br0">}</span>
+  <span class="kw1">return</span> ajoute<span class="sy0">;</span>
+<span class="br0">}</span>
+ 
+<span class="kw2">var</span> ajoute10 <span class="sy0">=</span> ajouteur<span class="br0">(</span><span class="nu0">10</span><span class="br0">)</span><span class="sy0">;</span>
+
+ajoute10<span class="br0">(</span><span class="nu0">1</span><span class="br0">)</span><span class="sy0">;</span> <span class="co1">// retourne 11</span>
+</pre></div>
+</div>
+<p><br />
+Dans l'exemple ci-dessus, la fonction interne <i>ajoute10</i> a toujours accès au paramètre effectif <i>nombre</i> malgré le fait que l'appel à la fonction <i>ajouteur</i> soit terminé.</p>
+
+<h3 id="Prototypes">Prototypes</h3>
+<p>Un <a href="/wiki/Programmation_orient%C3%A9e_prototype" title="Programmation orientée prototype">prototype</a> est un objet JavaScript qui est utilisé lors d'un échec de résolution d'un nom sur son objet parent. Ce mécanisme est un type d'héritage&#160;: l'héritage par prototype.</p>
+<div dir="ltr" class="mw-geshi" style="text-align: left;">
+<div class="javascript source-javascript">
+<pre class="de1">
+ <span class="kw2">function</span> MonPrototype<span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span>
+
+   <span class="kw1">this</span>.<span class="me1">a</span> <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">;</span>
+   <span class="kw1">this</span>.<span class="me1">b</span> <span class="sy0">=</span> <span class="kw2">function</span><span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span>
+
+     <span class="kw1">return</span> <span class="st0">'prototype'</span><span class="sy0">;</span>
+   <span class="br0">}</span><span class="sy0">;</span>
+   <span class="kw1">this</span>.<span class="me1">e</span> <span class="sy0">=</span> <span class="nu0">3</span><span class="sy0">;</span>
+
+ <span class="br0">}</span>
+ 
+ <span class="kw2">function</span> MaClasse<span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span>
+   <span class="kw1">this</span>.<span class="me1">c</span> <span class="sy0">=</span> <span class="nu0">2</span><span class="sy0">;</span>
+
+   <span class="kw1">this</span>.<span class="me1">d</span> <span class="sy0">=</span> <span class="kw2">function</span><span class="br0">(</span><span class="br0">)</span> <span class="br0">{</span>
+     <span class="kw1">return</span> <span class="st0">'classe'</span><span class="sy0">;</span>
+
+   <span class="br0">}</span><span class="sy0">;</span>
+   <span class="kw1">this</span>.<span class="me1">e</span> <span class="sy0">=</span> <span class="nu0">4</span><span class="sy0">;</span>
+ <span class="br0">}</span>
+
+ 
+ MaClasse.<span class="me1">prototype</span> <span class="sy0">=</span> <span class="kw2">new</span> MonPrototype<span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+ 
+ monObjet <span class="sy0">=</span> <span class="kw2">new</span> MaClasse<span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+
+ 
+ monObjet.<span class="me1">a</span><span class="sy0">;</span>   <span class="co1">// 1</span>
+ monObjet.<span class="me1">b</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span> <span class="co1">// 'prototype'</span>
+ monObjet.<span class="me1">c</span><span class="sy0">;</span>   <span class="co1">// 2</span>
+
+ monObjet.<span class="me1">d</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span> <span class="co1">// 'classe'</span>
+ monObjet.<span class="me1">e</span><span class="sy0">;</span>   <span class="co1">// 4</span>
+</pre></div>
+
+</div>
+<h3 id="S.C3.A9paration_des_instructions">Séparation des instructions</h3>
+<p>En <a href="/wiki/C_(langage)" title="C (langage)">C</a>, chaque instruction se termine par un <a href="/wiki/Point-virgule" title="Point-virgule">point-virgule</a>. Cette pratique a fait du point-virgule une obligation dans de nombreux langages inspirés de la syntaxe du C.</p>
+<p>JavaScript est plus souple, permettant à une fin de ligne de marquer implicitement la fin d'une instruction. Le but est de faciliter l'usage du langage aux personnes inexpérimentées en <a href="/wiki/Programmation_informatique" title="Programmation informatique">programmation informatique</a>. Mais cette souplesse introduit des effets inattendus<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span class="cite_crochet">[</span>8<span class="cite_crochet">]</span></a></sup>&#160;:</p>
+
+<pre>
+ return
+   true;
+</pre>
+<p>Le parseur JavaScript comprend cela comme deux instructions&#160;:</p>
+<pre>
+ return;
+ true;
+</pre>
+<p>alors que le programmeur pensait plus probablement à la seule instruction&#160;:</p>
+<pre>
+ return true;
+
+</pre>
+<p>Les ouvrages de programmation avancés en JavaScript mettent en garde contre les effets inattendus de la déduction automatique de fin d'instruction et conseillent d'écrire un point-virgule à la fin de chaque instruction, ce qui n'empêche pas les surprises lorsqu'on oublie le point-virgule, d'autant plus quand la compression du code impose le retrait des retours chariot.</p>
+<h3 id="E4X">E4X</h3>
+<p>Les versions récentes de la mise en œuvre du langage JavaScript de <a href="/wiki/SpiderMonkey" title="SpiderMonkey">SpiderMonkey</a> supportent l'<a href="/wiki/E4X" title="E4X" class="mw-redirect">E4X</a>. Il s'agit d'un support natif de <a href="/wiki/Extensible_Markup_Language" title="Extensible Markup Language">XML</a> ainsi que d'un support natif d'une syntaxe d'accès aux données XML (sorte de <a href="/wiki/XPath" title="XPath">XPath</a>)</p>
+
+<p>Exemple&#160;:</p>
+<pre>
+var xml = &lt;menu id="file" value="File"&gt;
+  &lt;popup&gt;
+    &lt;menuitem value="New" onclick="CreateNewDoc()" /&gt;
+    &lt;menuitem value="Open" onclick="OpenDoc()" /&gt;
+    &lt;menuitem value="Close" onclick="CloseDoc()" /&gt;
+
+  &lt;/popup&gt;
+&lt;/menu&gt;
+</pre>
+<p>Exemple d'accès aux données&#160;:</p>
+<pre>
+xml.popup.menuitem.(@value == 'New').@onclick  
+</pre>
+<p>L'exemple ci-dessus récupère la fonction correspondant à l'action "New". Le résultat de l'évaluation est "CreateNewDoc()".</p>
+<p>Autre exemple&#160;:</p>
+
+<pre>
+var item = 2;
+xml.popup.menuitem[item].@value
+</pre>
+<p>Le résultat de l'évaluation est "Close".</p>
+<h2 id="Notes_et_r.C3.A9f.C3.A9rences">Notes et références</h2>
+<div style="font-size: 85%">
+<ol class="references">
+<li id="cite_note-0"><span class="noprint renvois_vers_le_texte"><a href="#cite_ref-0">↑</a></span> <span style="font-family:monospace;font-weight:bold;font-size:small">(<abbr class="abbr" title="Langue&#160;: anglais">en</abbr>)</span> <a rel="nofollow" class="external free" href="http://wiki.commonjs.org/wiki/CommonJS">http://wiki.commonjs.org/wiki/CommonJS</a></li>
+
+<li id="cite_note-1"><span class="noprint renvois_vers_le_texte"><a href="#cite_ref-1">↑</a></span> <span style="font-family:monospace;font-weight:bold;font-size:small">(<abbr class="abbr" title="Langue&#160;: anglais">en</abbr>)</span> <a rel="nofollow" class="external free" href="https://developer.mozilla.org/en/JavaScript/New_in_JavaScript/1.8.5">https://developer.mozilla.org/en/JavaScript/New_in_JavaScript/1.8.5</a></li>
+<li id="cite_note-2"><span class="noprint renvois_vers_le_texte"><a href="#cite_ref-2">↑</a></span> <a rel="nofollow" class="external text" href="http://cgi.netscape.com/columns/techvision/innovators_be.html">TechVision: Innovators of the Net: Brendan Eich and JavaScript</a></li>
+<li id="cite_note-newsrelease67-3"><span class="noprint renvois_vers_le_texte">↑ <sup><a href="#cite_ref-newsrelease67_3-0">a</a> et <a href="#cite_ref-newsrelease67_3-1">b</a></sup></span> <span style="font-family:monospace;font-weight:bold;font-size:small">(<abbr class="abbr" title="Langue&#160;: anglais">en</abbr>)</span><a rel="nofollow" class="external text" href="http://web.archive.org/web/20020606002913/http:/wp.netscape.com/newsref/pr/newsrelease67.html">NETSCAPE AND SUN ANNOUNCE JAVASCRIPT, THE OPEN, CROSS-PLATFORM OBJECT SCRIPTING LANGUAGE FOR ENTERPRISE NETWORKS AND THE INTERNET</a></li>
+
+<li id="cite_note-4"><span class="noprint renvois_vers_le_texte"><a href="#cite_ref-4">↑</a></span> <span style="font-family:monospace;font-weight:bold;font-size:small">(<abbr class="abbr" title="Langue&#160;: anglais">en</abbr>)</span> <a rel="nofollow" class="external free" href="http://www.ecma-international.org/publications/standards/Ecma-262.htm">http://www.ecma-international.org/publications/standards/Ecma-262.htm</a></li>
+<li id="cite_note-5"><span class="noprint renvois_vers_le_texte"><a href="#cite_ref-5">↑</a></span> <a rel="nofollow" class="external free" href="http://blogs.msdn.com/ie/archive/2008/09/10/native-json-in-ie8.aspx">http://blogs.msdn.com/ie/archive/2008/09/10/native-json-in-ie8.aspx</a></li>
+<li id="cite_note-6"><span class="noprint renvois_vers_le_texte"><a href="#cite_ref-6">↑</a></span> Voir <a rel="nofollow" class="external text" href="http://developer.mozilla.org/fr/docs/Introduction_au_shell_JavaScript">Introduction au shell JavaScript</a></li>
+
+<li id="cite_note-7"><span class="noprint renvois_vers_le_texte"><a href="#cite_ref-7">↑</a></span> Cet exemple est donné page 25 par&#160;: <i>JavaScript - The Definitive Guide</i>, Fourth Edition, David Flanagan, éditions O'Reilly Media, Sebastopol, Californie.</li>
+</ol>
+</div>
+<h2 id="Voir_aussi">Voir aussi</h2>
+<h3 id="Articles_connexes">Articles connexes</h3>
+
+<ul>
+<li><a href="/wiki/Syntaxe_JavaScript" title="Syntaxe JavaScript">Syntaxe JavaScript</a></li>
+<li><a href="/wiki/ECMAScript_pour_XML" title="ECMAScript pour XML">ECMAScript pour XML</a></li>
+<li><a href="/wiki/Asynchronous_JavaScript_and_XML" title="Asynchronous JavaScript and XML" class="mw-redirect">Asynchronous JavaScript and XML</a></li>
+<li><a href="/wiki/JSAN" title="JSAN">JSAN</a></li>
+</ul>
+
+	</body>
+</html>
+
+<script src="sommaire.js"></script>

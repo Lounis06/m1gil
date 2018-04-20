@@ -1,0 +1,24 @@
+<DrctDbtTxInf>
+    <PmtId>REF OPE BBBB</PmtId>
+    <InstdAmt Ccy="EUR">2150.08</InstdAmt>
+    <DrctDbtTx>
+        <MndtRltdInf>
+            <MndtId>MANDAT NO 666666</MndtId>
+            <DtOfSgntr>1989-07-03</DtOfSgntr>
+        </MndtRltdInf>
+    </DrctDbtTx>
+    <DbtrAgt>
+        <FinInstnId>
+            <BIC>BANKGBUL</BIC>
+        </FinInstnId>
+    </DbtrAgt>
+    <Dbtr>
+        <Nm>Mr Debiteur N2</Nm>
+    </Dbtr>
+    <DbtrAcct>
+        <Id>
+            <IBAN>GB29NWBK60161331926819</IBAN>
+        </Id>
+    </DbtrAcct>
+    <RmtInf>Facture reference ISO 654321</RmtInf>
+</DrctDbtTxInf>

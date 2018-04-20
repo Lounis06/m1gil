@@ -1,0 +1,15 @@
+/* Un peu plus sobre */
+body { 
+	background:lightgray;
+	color:black; 
+	border-style: solid; 
+	border-width: 5px; 
+	font-family:"Courier New", Times, serif;
+}
+
+#test3 { 
+	background:white;
+	color:blue; 
+	font-weight: bold;
+}
+

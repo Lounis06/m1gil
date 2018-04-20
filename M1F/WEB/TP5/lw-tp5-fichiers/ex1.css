@@ -1,0 +1,10 @@
+/* Tous les goûts sont dans la nature */
+#test1 { 
+	background:blue; 
+	color:yellow; 
+	border-style: solid; 
+	border-width: 2px; 
+	background-image: url(texture.png); 
+	text-align:center; 
+	font-family:"Courier New", Times, serif;
+}

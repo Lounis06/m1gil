@@ -1,0 +1,51 @@
+/** Mise en place du style du sommaire */
+#summary {
+	float: right;
+	width: 33%;
+	background-color: #333;
+	border: 1px solid #444;
+	padding: 0% 2% 1% 1%;
+	counter-reset: subsection;
+}
+
+#summary h1 {
+	font-size: 150%;
+	text-decoration: none;
+	border-bottom: solid 2px white;
+}
+
+#summary * {
+	font-size: 100%;
+	color: #f2f2f2;
+}
+
+.somH2 {
+	margin-top: 4%;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.somH3 a {
+	text-decoration: none;
+}
+
+#summary a:hover {
+	color: #ff3311;
+}
+
+#summary .somH2:before {
+	content:counter(section) ". ";
+}
+
+#summary .somH2 {
+	counter-increment: section;
+	counter-reset: subsection;
+}
+
+#summary .somH3:before {
+	counter-increment: subsection;
+	content: counter(section) "." counter(subsection) ". ";
+}
+#summary .somH3 {
+	padding-left: 1em;
+}

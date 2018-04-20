@@ -1,0 +1,27 @@
+tennis <- read.table("../tennis_data.txt")
+tennis
+
+ad.tennis.cnt <- rpart.control (minsplit = 1)
+ad.tennis <- rpart(Jouer~Ciel+Temperature+Humidite+Vent, tennis, control = ad.tennis.cnt)
+
+plot (ad.tennis)
+text (ad.tennis)
+
+plot (ad.tennis, uniform=T)
+text (ad.tennis, use.n=T, all=T)
+plot (ad.tennis, branch=0)
+
+plot (ad.tennis, branch=.7)
+text (ad.tennis, use.n=T)
+
+plot (ad.tennis, branch=.4, uniform=T, compress=T)
+text (ad.tennis, all=T,use.n=T)
+
+plot (ad.tennis, branch=.2, uniform=T, compress=T, margin=.1)
+text (ad.tennis, all=T, use.n=T, fancy=T)
+
+tennis2table <- read.table("../tennis_request.txt")
+tennis2frame <- data.frame(Ciel=c("Ensoleillé", "Couvert", "Pluie"), Temperature=c(30, 25, 15), Humidite=c(90, 70, 86), Vent=c("Faible", "Fort", "Fort"))
+
+predict(ad.tennis, tennis2table)
+predict(ad.tennis, tennis2frame)

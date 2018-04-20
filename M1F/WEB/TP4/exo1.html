@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title> Exo 1 </title>
+  <meta charset="utf-8">
+</head>
+  
+<body>
+  <!-- 
+    Adresse à utiliser pour le formulaire
+  -->
+  <form action="127.0.0.1" method="get">
+    <label> Nom : </label><input type="text" name="name" required><br>
+    
+    <details open>
+      <summary> Informations personnelles </summary>
+      <label> Date de naissance : </label><input type="date" name="birthdate"><br>
+    
+      <label> Couleur favorite : </label><input type="color" name="color"><br>
+
+      <label> Animal préféré : </label><input type="text" list="animals" name="animal">
+      <datalist id="animals">
+        <option value="Chien"> Chien </option>
+        <option value="Chat"> Chat </option>
+        <option value="Lézard"> Lézard </option>
+        <option value="Mr Spock"> Mr Spock </option>
+      </datalist><br>
+    </details>
+    
+    <label> Email : </label><input type="email" name="email" required><br>
+    <input type="submit" value="Valider !">
+  </form>
+</body>
+</html>

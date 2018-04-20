@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+	<title>Validation de formulaire.</title>
+	<link rel="stylesheet" type="text/css" href="validation.css">
+  <script src="validation.js"></script>
+</head>
+
+
+
+<body>
+
+<div class="module">
+<div class="mod_title">Abonnez vous à notre <del>spam</del> mailing list :</div>
+<form action="nowhere" method="get">
+	<div>
+		<label for="lastname">Votre nom : </label>
+		<input type="text" name="lastname" id="lastname">
+		<label for="firstname">Votre prénom : </label>
+		<input type="text" name="firstname" id="firstname"><br>
+		<label for="email">Votre email (cher futur(e) spammé(e)) : </label>
+		<input type="text" name="email" id="email"><br>
+		<span id="format">Format :
+			<input type="radio" id="rd1" name="format" value="1"><label for="rd1">Texte</label>
+			<input type="radio" id="rd2" name="format" value="2"><label for="rd2">HTML</label>
+		</span>
+		<br>
+		<input type="submit" value="envoyer">
+	</div>
+</form>
+</div>
+
+</body>
+</html>

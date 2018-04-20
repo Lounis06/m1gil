@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:CstmrDrctDbtInitn xmlns:p="http://univ.fr/sepa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://univ.fr/sepa sepa.xsd ">
+  <DrctDbtTxInf>
+    <DBID>CP0001</DBID>
+    <PmtInf>
+      REF OPE test
+    </PmtInf>
+    <InstdAmt Ccy="EUR">
+      <amount>1100.07</amount>
+    </InstdAmt>
+    <DrctDbtTx>
+      <MndtId>MANDAT NO 55555</MndtId>
+      <DtOfSgntr>2009-09-01</DtOfSgntr>
+    </DrctDbtTx>
+    <DbtrAgt>
+      <Othr><Id>NOTPROVIDED</Id></Othr>
+    </DbtrAgt>
+    <Dbtr>
+      <Nm>Mr Debiteur N1</Nm>
+    </Dbtr>
+    <DbtrAcct>
+      <IBAN>FR763004136210001234567811</IBAN>
+    </DbtrAcct>
+    <RmtInf>
+      Facture N1
+    </RmtInf>
+  </DrctDbtTxInf>
+  
+  <DrctDbtTxInf>
+    <DBID>CP0002</DBID>
+    <PmtInf>
+      REF OPE BBBB
+    </PmtInf>
+    <InstdAmt Ccy="EUR">
+      <amount>2150.08</amount>
+    </InstdAmt>
+    <DrctDbtTx>
+      <MndtId>MANDAT NO 666666</MndtId>
+      <DtOfSgntr>1989-07-03</DtOfSgntr>
+    </DrctDbtTx>
+    <DbtrAgt>
+      <BIC>BANKGBALABC</BIC>
+    </DbtrAgt>
+    <Dbtr>
+      <Nm>Mr Debiteur N2</Nm>
+    </Dbtr>
+    <DbtrAcct>
+      <IBAN>GB29NWBK60161331926819</IBAN>
+    </DbtrAcct>
+    <RmtInf>
+      Facture Reference ISO 654321
+    </RmtInf>
+  </DrctDbtTxInf>
+</p:CstmrDrctDbtInitn>

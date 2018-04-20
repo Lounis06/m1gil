@@ -1,0 +1,11 @@
+Question II.1
+	XSLT permet d'offrir des fonctionnalités de 
+présentation/conversion d'un doument XML, permettant notamment de
+le transformer en un fichier d'un format différent (HTML, PDF, ...)
+
+Question II.2
+	Il d'agit d'un langage de sérialisation de type fonctionnel
+
+Question II.3/4
+	Un autre langage utilisé est XPath, ce dernier
+appartient à la même famille que XSLT.

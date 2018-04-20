@@ -1,0 +1,69 @@
+/** Directives initiales **/
+@import url("global.css");
+
+/** Structure générale **/
+#register_form {
+	margin-top: 5%;
+	margin-bottom : 5%;
+}
+
+#register_form > fieldset {
+	margin: 2% 0% 2% 0%;
+	width: 100%;
+}
+
+.info_table {
+	display: table;
+	margin : 1% auto 1% auto;
+	width: 100%;
+}
+
+.info {
+	display:table-row;
+	width: 100%;
+	padding: 2%;
+}
+
+.info * {
+	display:table-cell;
+	margin: 2%;
+}
+
+.info > label {
+	width : 20%;
+}
+
+#actions {
+	text-align : center;
+}
+
+#actions > * {
+	margin: 2%;
+	height: 10%;
+	width: 30%;
+}
+
+/** Mise en valeur des saisies dans le formulaire **/
+.input_container {
+	width : 25%;
+}
+
+.input_container > input {
+	width: 80%;
+	border: solid 1px #bbb;
+}
+
+.input_container > input.right {
+	border : solid 1px #8e8;
+	color : #00aa00;
+}
+
+.input_container > input.wrong {
+	border : solid 1px #e88;
+	color : #aa0000;
+}
+
+.error {
+	text-align: left;
+	color: #f9f9f9;
+}

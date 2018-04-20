@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<addressbook:AddressBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:addressbook="addressbook.univrouen.fr" name="MonCarnet">
+  <personne nom="WORLD" prenom="Hello" age="46">
+    <adresse numero="41" rue="Rue of peace"/>
+  </personne>
+  <personne nom="MUNDO" prenom="Hola" age="16">
+    <adresse numero="117" rue="Rua de la pais"/>
+  </personne>
+  <personne nom="LE MONDE" prenom="Bonjour" age="67">
+    <adresse numero="17" rue="Rue de la paix"/>
+  </personne>
+</addressbook:AddressBook>

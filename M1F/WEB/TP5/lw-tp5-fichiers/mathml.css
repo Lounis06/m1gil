@@ -1,0 +1,19 @@
+/* On utilise le fait que seuls les opérateurs possèdent un attribut class */
+math:hover :not([class]) {
+  color: red;
+}
+
+.opRoot {
+  color: blue;
+}
+
+.opRoot * {
+  color: initial;
+}
+
+.opSum {
+  color: green;
+}
+
+
+

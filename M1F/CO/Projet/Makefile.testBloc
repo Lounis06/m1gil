@@ -1,0 +1,16 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -pedantic -std=c11
+LDFLAGS =
+objects = test.o bloc.o
+executable = test
+
+all: executable
+
+executable: $(objects)
+	$(CC) $(objects) $(LDFLAGS) -o $(executable)
+
+test.o: test.c bloc.h
+bloc.o: bloc.c bloc.h
+
+clean:
+	$(RM) $(objects) $(executable) *.h.gch

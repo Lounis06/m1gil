@@ -1,0 +1,48 @@
+### Question 5
+ad.car.cnt <- rpart.control (minsplit = 1) 
+ad.car <- rpart(Type~Price+Country+Reliability+Mileage+Weight+Disp.+HP, car.test.frame, control = ad.car.cnt)
+
+
+### Question 6
+arbre <- prune(ad.car, 0.02)
+arbre <- prune(ad.car, 0.03)
+arbre <- prune(ad.car, 0.04)
+arbre <- prune(ad.car, 0.05)
+
+plot (arbre, uniform=T)
+text (arbre, use.n=T, all=T)
+
+
+### Question 7
+ad.car$cptable
+
+plot(prune(ad.car, 0.028888889))
+
+
+### Question 10
+carspec <- ad.car$cptable
+plot(carspec[,2], carspec[,3])
+lines(carspec[,2], carspec[,3])
+
+
+### Question 11
+plot(carspec[,2], carspec[,3])
+lines(carspec[,2], carspec[,3])
+lines(carspec[,2], carspec[,4])
+
+
+### Question 12 - cp optimal = 0.038 !
+ad.car.optimal <- prune(ad.car, 0.038)
+
+
+### Question 13
+ad.car.country <- rpart(Country~Price+Type+Reliability+Mileage+Weight+Disp.+HP, car.test.frame, control = ad.car.cnt)
+
+car.test2 <- car.test.frame
+car.test2$Reliability[which(car.test2$Reliability == 1)] <- "Un"
+car.test2$Reliability[which(car.test2$Reliability == 2)] <- "Deux"
+car.test2$Reliability[which(car.test2$Reliability == 3)] <- "Trois"
+car.test2$Reliability[which(car.test2$Reliability == 4)] <- "Quatre"
+car.test2$Reliability[which(car.test2$Reliability == 5)] <- "Cinq"
+
+ad.car.reliability <- rpart(Reliability~Price+Type+Country+Mileage+Weight+Disp.+HP, car.test2, control = ad.car.cnt)

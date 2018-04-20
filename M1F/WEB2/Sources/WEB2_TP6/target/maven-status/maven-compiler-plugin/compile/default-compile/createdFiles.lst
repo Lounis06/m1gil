@@ -1,0 +1,10 @@
+urouen/sepa/controller/SepaController.class
+urouen/sepa/model/MndtRltdInf.class
+urouen/sepa/model/FinInstnId.class
+urouen/sepa/model/DrctDbtTx.class
+urouen/sepa/model/SEPA.class
+urouen/sepa/model/InstdAmt.class
+urouen/sepa/model/Dbtr.class
+urouen/sepa/model/DbtrAcct.class
+urouen/sepa/model/IBAN.class
+urouen/sepa/model/DbtrAgt.class

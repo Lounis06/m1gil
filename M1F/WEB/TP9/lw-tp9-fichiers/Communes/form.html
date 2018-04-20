@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Formulaire TP9-Ex1</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="sommaire.css">
+  <script src="../ajax.js"></script>
+  <script src="form.js"></script>
+</head>
+
+<body>
+  <h2> Formulaire </h2>
+  <form id="main_form">
+    <select name="cities" id="cities" onchange="sendRequestJSON()" >
+      <option value="GQ">Le Grand-Quevilly</option>
+      <option value="PQ">Le Petit-Quevilly</option>
+      <option value="RO">Rouen</option>
+      <option value="SE">Saint-Étienne-du-Rouvray</option>
+      <option value="SO">Sotteville-lès-Rouen</option>
+    </select>
+    
+    <select name="stops" id="stops">
+      
+    </select>
+  </form>
+</body>
+
+</html>

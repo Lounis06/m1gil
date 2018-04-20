@@ -1,0 +1,44 @@
+.module {
+	border-style:double;
+	border-width:medium;
+	position:relative;
+	margin:1em;
+	padding:1em;
+}
+
+.mod_title {
+	background-color:lightgray;
+	padding-right:3px;
+	padding-left:3px;
+	display:inline;
+	top:-.5em;
+	position:absolute;
+}
+
+
+
+@font-face {
+	font-family: bartWriting;
+	src: url('eager.ttf');
+} 
+
+
+.writing {
+	width:730px;
+	height:430px;
+	color:white;
+	font-size: 200%;
+	font-family:"bartWriting",Georgia,Serif;
+	overflow:hidden;
+}
+
+.module_bis {
+	font-family:"bartWriting",Georgia,Serif;
+	background-color:gray;
+	border-style:solid;
+	border-width:medium;
+	position:relative;
+	margin:1em;
+	padding:1em;
+}
+

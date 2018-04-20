@@ -1,0 +1,27 @@
+.board {
+	background-image:url(bart-bg.jpg);
+	background-repeat:no-repeat;
+	width: 800px;
+	height: 600px;
+	padding:35px;
+}
+
+@font-face {
+	font-family: bartWriting;
+	src: url('eager.ttf');
+} 
+
+.bart {
+	position:relative;
+	top:-250px;
+	left:433px;
+}
+
+.writing {
+	width:730px;
+	height:430px;
+	color:white;
+	font-size: 200%;
+	font-family:"bartWriting",Georgia,Serif;
+	overflow:auto;
+}

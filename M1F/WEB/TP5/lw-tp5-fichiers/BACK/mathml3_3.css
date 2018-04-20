@@ -1,0 +1,11 @@
+/* Valeurs spéciales de color : 
+ * initial : couleur employée par défaut
+ * transparent : Utilise une police transparente (pas d'affichage du texte)
+ */
+.opRoot {
+  color: blue;
+}
+
+.opRoot * {
+  color: transparent;
+}

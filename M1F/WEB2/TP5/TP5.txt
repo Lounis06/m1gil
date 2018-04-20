@@ -1,0 +1,55 @@
+xquery version "3.1";
+
+declare namespace sepa="http://univ.fr/sepa";
+
+(: Question II.3 :)
+<ol>
+    {
+    for $transac in collection("/db/sepa/")/sepa:Document/DrctDbtTxInf
+    let $ref := $transac/PmtId
+    let $amount := $transac/InstdAmt
+    return <div><li>{$ref/text()}</li><li>{$amount/text()}</li></div>
+    }
+</ol>
+
+(: Question II.4 :)
+<results>
+    {
+    for $transac in collection("/db/sepa/")/sepa:Document/DrctDbtTxInf
+    let $ref := $transac/PmtId
+    let $date := $transac/DrctDbtTx/MndtRltdInf/DtOfSgntr
+    order by $date
+    return <Trx>({$date/text()}) {lower-case($ref/text())}</Trx>
+    }
+</results>
+
+(: Question II.5 :)
+<results>
+    {
+    for $transac in collection("/db/sepa/")/sepa:Document/DrctDbtTxInf
+    let $ref := $transac/PmtId
+    let $amount := $transac/InstdAmt
+    let $currency := $transac/InstdAmt/@Ccy
+    order by $amount
+    return <Trx>({$amount/text()} {string($currency)}) {upper-case($ref/text())}</Trx>
+    }
+</results>
+
+(: Question II.6 :)
+<stats>
+	<count>{count(collection("/db/sepa/")/sepa:Document/DrctDbtTxInf)}</count>
+	<avg>{avg(collection("/db/sepa/")/sepa:Document/DrctDbtTxInf/InstdAmt)}</avg>
+	<sum>{sum(collection("/db/sepa/")/sepa:Document/DrctDbtTxInf/InstdAmt)}</sum>
+</stats>
+
+(: Question II.7 :)
+<results>
+    {
+    for $transac in collection("/db/sepa/")/sepa:Document/DrctDbtTxInf
+    let $ref := $transac/PmtId
+    return typeswitch($transac/DbtrAgt/FinInstnId/*)
+        case $BIC as element(BIC) return <Trx><Name>{$ref/text()}</Name><BIC>{$BIC/text()}</BIC></Trx>	
+        case $Othr as element(Othr) return <Trx><Name>{$ref/text()}</Name><Id>{$Othr/Id/text()}</Id></Trx>
+        default return <Trx><Name>{$ref/text()}</Name></Trx>
+    }
+</results>

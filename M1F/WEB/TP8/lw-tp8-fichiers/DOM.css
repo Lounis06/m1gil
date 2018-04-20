@@ -1,0 +1,49 @@
+
+.content {
+	background-color: lightblue;
+}
+
+.comment {
+	background-color: lightgray;
+	font-style: italic;
+	text-align:right;
+}
+.comment em {
+	font-style: normal;
+}
+
+
+#intro {
+	font-style: italic;
+}
+#intro em {
+	font-style: normal;
+}
+
+.hidden {
+	float:right;
+	background-color: red;
+}
+
+.hidden > * {
+	display:none;
+}
+
+.hidden:hover > *{
+	display:block;
+}
+
+p div.pmenu {
+	float:right;
+	background-color:lightgray;
+	height:1em;
+	border:1px solid;
+}
+
+div.pmenu > img {
+	height:100%;
+}
+
+div.pmenu > img:hover {
+	height:120%;
+}

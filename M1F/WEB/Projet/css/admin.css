@@ -1,0 +1,39 @@
+/** Directives initiales **/
+@import url("global.css");
+
+/** Directives spécifiques à admin.php */
+.admin_table {
+	width:100%;
+}
+
+.admin_table, .admin_table th, .admin_table td {
+	text-align : center;
+	border : solid 1px #3c3c3c;
+	border-collapse: collapse;
+}
+
+.admin_table th, .admin_table td {
+	padding : 4px;
+	overflow-x: scroll;
+}
+
+.admin_table th {
+	border : solid 2px #3c3c3c;
+	background-color: #444;
+	color: #fff; 
+}
+
+.admin_table td {
+	background-color: #fcfcfc;
+}
+
+.admin_table td:focus {
+	background-color: #ffe6e6;
+	border : solid 1px #ff9999;
+	color : #cc0000;
+}
+
+.attr:not([contenteditable=true]) {
+	background-color: #eee;
+	color : #444;
+}
